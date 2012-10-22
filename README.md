@@ -1,2 +1,3 @@
-slightly-bizarre-boilerplate
-============================
+# Slightly Bizarre Boilerplate
+
+## A continual work in progress
