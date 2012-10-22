@@ -1,0 +1,32 @@
+// initial variables set-up
+
+$doc-font-size:16;
+$doc-line-height:24;
+
+// font-size mixin
+
+@mixin font-size($size, $keyword: null, $line-height:$doc-line-height) {
+//
+// EXAMPLE -   font-size(16);
+//             font-size(16, medium);   
+//             font-size(16, medium, 24);
+//
+// note that the numeric font-size is required to allow the line-height to be generated correctly.
+
+// the addition of the $keyword has been borrowed from this technique - 
+//
+// http://seesparkbox.com/foundry/scss_rem_mixin_now_with_a_better_fallback
+
+  @if $keyword{ 
+    font-size: $keyword; 
+  }
+  @else {
+    font-size: 0px + $size;
+    font-size: $size / $doc-font-size +rem;
+  } 
+  // because you have to include the font size as a number for the keyword you can still get the line-height 
+    
+  line-height: round($line-height / $size*10000) / 10000;
+  margin-bottom: 0px + $line-height;
+  margin-bottom: ($line-height / $doc-font-size)+rem ;
+}

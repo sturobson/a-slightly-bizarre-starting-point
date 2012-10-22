@@ -1,12 +1,36 @@
+// Normalize
+
 @import "modules/_normalize.scss";
 
-@import "modules/_variables.scss";
+// Mixins
 
 @import "modules/_mixins.scss";
 
+// Variables
+
+@import "modules/_variables.scss";
+
+// Grid System
+
+@import "partials/_grids.scss";
+
+// Base
+
 @import "modules/_prebase.scss";
 
+// Put Your stuff here
+
+
+
+// Helpers
+
 @import "modules/_helpers.scss";
+
+// Internet Explorer Specific fixes
+
+@import "partials/_ie.scss";
+
+// Print styles
 
 @import "modules/_print.scss";
 
