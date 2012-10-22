@@ -427,6 +427,150 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
+body {
+  margin: 0;
+  font: 1em/1.5 sans-serif; }
+
+.strip {
+  background: #891434;
+  color: #fff;
+  padding: 1em 5%; }
+  .strip p {
+    text-align: left;
+    font-size: 1.2em; }
+
+.container {
+  width: 90%;
+  margin: 2em auto; }
+
+p {
+  text-align: justify;
+  margin: 0 0 1.5em 0; }
+
+a {
+  color: #fff; }
+
+h2 {
+  margin-top: 0; }
+
+/* -- Begin grids
+------------------------------------------------------------- */
+/* -- Use this wrapper if you want to divide your columns -- */
+.divide-bottom {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em; }
+
+/* -- Use this wrapper if you want to block-out a column with padding 
+Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
+.island {
+  padding: 1.5em;
+  background-color: #ececec; }
+  .island :last-child {
+    margin-bottom: 0; }
+
+/* -- Set up your grids -- */
+.grid-wrap {
+  margin-left: -3em;
+  overflow: hidden;
+  clear: both; }
+
+.grid-col {
+  float: left;
+  padding-left: 3em;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.half-gutter {
+  margin-left: -1.5em; }
+  .half-gutter .grid-col {
+    padding-left: 1.5em; }
+
+/* -- If you want any columns to begin with -- */
+.col-full {
+  width: 100%; }
+
+.col-one-half {
+  width: 50%; }
+
+.col-one-third {
+  width: 33.333%; }
+
+.col-two-thirds {
+  width: 66.666%; }
+
+.col-one-quarter {
+  width: 25%; }
+
+.col-three-quarters {
+  width: 75%; }
+
+/* -- Breakpoint (.bp1)
+------------------------------------------------------------- */
+@media only screen and (min-width: 30em) {
+  .bp1-col-full {
+    width: 100%; }
+
+  .bp1-col-one-half {
+    width: 50%; }
+
+  .bp1-col-one-third {
+    width: 33.333%; }
+
+  .bp1-col-two-thirds {
+    width: 66.666%; }
+
+  .bp1-col-one-quarter {
+    width: 25%; }
+
+  .bp1-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 2 (.bp2)
+------------------------------------------------------------- */
+@media only screen and (min-width: 48em) {
+  .bp2-col-full {
+    width: 100%; }
+
+  .bp2-col-one-half {
+    width: 50%; }
+
+  .bp2-col-one-third {
+    width: 33.333%; }
+
+  .bp2-col-two-thirds {
+    width: 66.666%; }
+
+  .bp2-col-one-quarter {
+    width: 25%; }
+
+  .bp2-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 3 (.bp3)
+------------------------------------------------------------- */
+@media only screen and (min-width: 60em) {
+  .bp3-col-full {
+    width: 100%; }
+
+  .bp3-col-one-half {
+    width: 50%; }
+
+  .bp3-col-one-third {
+    width: 33.333%; }
+
+  .bp3-col-two-thirds {
+    width: 66.666%; }
+
+  .bp3-col-one-quarter {
+    width: 25%; }
+
+  .bp3-col-three-quarters {
+    width: 75%; } }
 html,
 button,
 input,
@@ -522,6 +666,274 @@ textarea {
 
 .clearfix {
   *zoom: 1; }
+
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
+/*
+Author  : Boon
+URL     : http://builtbyboon.com
+Twitter	: http://twitter.com/mattberridge
+---------------------------------------*/
+body {
+  margin: 0;
+  font: 1em/1.5 sans-serif; }
+
+.strip {
+  background: #891434;
+  color: #fff;
+  padding: 1em 5%; }
+  .strip p {
+    text-align: left;
+    font-size: 1.2em; }
+
+.container {
+  width: 90%;
+  margin: 2em auto; }
+
+p {
+  text-align: justify;
+  margin: 0 0 1.5em 0; }
+
+a {
+  color: #fff; }
+
+h2 {
+  margin-top: 0; }
+
+/* -- Begin grids
+------------------------------------------------------------- */
+/* -- Use this wrapper if you want to divide your columns -- */
+.divide-bottom {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em; }
+
+/* -- Use this wrapper if you want to block-out a column with padding 
+Taken from http://csswizardry.com/2011/10/the-island-object/) -- */
+.island {
+  padding: 1.5em;
+  background-color: #ececec; }
+  .island :last-child {
+    margin-bottom: 0; }
+
+/* -- Set up your grids -- */
+.grid-wrap {
+  margin-left: -3em;
+  overflow: hidden;
+  clear: both; }
+
+.grid-col {
+  float: left;
+  padding-left: 3em;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.half-gutter {
+  margin-left: -1.5em; }
+  .half-gutter .grid-col {
+    padding-left: 1.5em; }
+
+/* -- If you want any columns to begin with -- */
+.col-full {
+  width: 100%; }
+
+.col-one-half {
+  width: 50%; }
+
+.col-one-third {
+  width: 33.333%; }
+
+.col-two-thirds {
+  width: 66.666%; }
+
+.col-one-quarter {
+  width: 25%; }
+
+.col-three-quarters {
+  width: 75%; }
+
+/* -- Breakpoint (.bp1)
+------------------------------------------------------------- */
+@media only screen and (min-width: 30em) {
+  .bp1-col-full {
+    width: 100%; }
+
+  .bp1-col-one-half {
+    width: 50%; }
+
+  .bp1-col-one-third {
+    width: 33.333%; }
+
+  .bp1-col-two-thirds {
+    width: 66.666%; }
+
+  .bp1-col-one-quarter {
+    width: 25%; }
+
+  .bp1-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 2 (.bp2)
+------------------------------------------------------------- */
+@media only screen and (min-width: 48em) {
+  .bp2-col-full {
+    width: 100%; }
+
+  .bp2-col-one-half {
+    width: 50%; }
+
+  .bp2-col-one-third {
+    width: 33.333%; }
+
+  .bp2-col-two-thirds {
+    width: 66.666%; }
+
+  .bp2-col-one-quarter {
+    width: 25%; }
+
+  .bp2-col-three-quarters {
+    width: 75%; } }
+/* -- Breakpoint 3 (.bp3)
+------------------------------------------------------------- */
+@media only screen and (min-width: 60em) {
+  .bp3-col-full {
+    width: 100%; }
+
+  .bp3-col-one-half {
+    width: 50%; }
+
+  .bp3-col-one-third {
+    width: 33.333%; }
+
+  .bp3-col-two-thirds {
+    width: 66.666%; }
+
+  .bp3-col-one-quarter {
+    width: 25%; }
+
+  .bp3-col-three-quarters {
+    width: 75%; } }
+.bp1-col-full {
+  width: 100%; }
+
+.bp1-col-one-half {
+  width: 50%; }
+
+.bp1-col-one-third {
+  width: 33.333%; }
+
+.bp1-col-two-thirds {
+  width: 66.666%; }
+
+.bp1-col-one-quarter {
+  width: 25%; }
+
+.bp1-col-three-quarters {
+  width: 75%; }
+
+.bp2-col-full {
+  width: 100%; }
+
+.bp2-col-one-half {
+  width: 50%; }
+
+.bp2-col-one-third {
+  width: 33.333%; }
+
+.bp2-col-two-thirds {
+  width: 66.666%; }
+
+.bp2-col-one-quarter {
+  width: 25%; }
+
+.bp2-col-three-quarters {
+  width: 75%; }
+
+.bp3-col-full {
+  width: 100%; }
+
+.bp3-col-one-half {
+  width: 50%; }
+
+.bp3-col-one-third {
+  width: 33.333%; }
+
+.bp3-col-two-thirds {
+  width: 66.666%; }
+
+.bp3-col-one-quarter {
+  width: 25%; }
+
+.bp3-col-three-quarters {
+  width: 75%; }
+
+.lt-ie9 .container {
+  width: 960px; }
+
+/* -- IE7 or less
+------------------------------------------------------------- */
+.lt-ie8 .grid-wrap {
+  margin-left: 0; }
+.lt-ie8 .grid-col {
+  padding: 0;
+  margin-left: 5%; }
+  .lt-ie8 .grid-col:first-child {
+    margin-left: 0; }
+
+.lt-ie8 .col-full {
+  width: 99.95%; }
+.lt-ie8 .col-one-half {
+  width: 47.45%; }
+.lt-ie8 .col-one-third {
+  width: 29.55%; }
+.lt-ie8 .col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .col-three-quarters {
+  width: 74.95%; }
+
+.lt-ie8 .bp1-col-full {
+  width: 99.95%; }
+.lt-ie8 .bp1-col-one-half {
+  width: 47.45%; }
+.lt-ie8 .bp1-col-one-third {
+  width: 29.55%; }
+.lt-ie8 .bp1-col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .bp1-col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .bp1-col-three-quarters {
+  width: 74.95%; }
+
+.lt-ie8 .bp2-col-full {
+  width: 99.95%; }
+.lt-ie8 .bp2-col-one-half {
+  width: 47.45%; }
+.lt-ie8 .bp2-col-one-third {
+  width: 29.55%; }
+.lt-ie8 .bp2-col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .bp2-col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .bp2-col-three-quarters {
+  width: 74.95%; }
+
+.lt-ie8 .bp3-col-full {
+  width: 99.95%; }
+.lt-ie8 .bp3-col-one-half {
+  width: 47.45%; }
+.lt-ie8 .bp3-col-one-third {
+  width: 29.55%; }
+.lt-ie8 .bp3-col-two-thirds {
+  width: 64.95%; }
+.lt-ie8 .bp3-col-one-quarter {
+  width: 19.95%; }
+.lt-ie8 .bp3-col-three-quarters {
+  width: 74.95%; }
 
 /* ==========================================================================
    Print styles
