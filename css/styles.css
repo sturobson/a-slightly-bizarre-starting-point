@@ -1,3 +1,100 @@
+/*
+-----------------------------------------------------
+CSS file for BSI
+Media: ALL THE THINGS
+
+Author: Stuart Robson & Stuart Charlton & 
+
+
+Table of contents
+-----------------------------------------------------
+
+A) NORMALIZE ALL THE THINGS
+B) Constants (colours, font stuff)
+C) Layout
+D) Typography
+E) Headings 
+F) Navigation
+G) Forms
+H) Figures & Images
+I) Page Specific Elements
+J) Helpers
+K) Print Style Sheet (H5BP generic)
+
+The Rulez - Where and How to write your CSS
+-----------------------------------------------------
+
+*** Write the CSS using tab indentation. Liks This
+
+.example {
+	color: #fff;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	height: 300px;
+	left: 50px;
+	line-height: 20px;
+	position: relative;
+	top: 20px;
+	width: 300px;
+	z-index: 9;
+}
+
+*** Indent any CSS changes for quick error finding. Like this - 
+
+.example {
+	color: #fff;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	height: 300px;
+left: 45px;
+	line-height: 20px;
+	position: relative;
+	top: 20px;
+	width: 300px;
+	z-index: 9;
+}
+
+*** Write all CSS rules alphabetically. This will aid quick error finding avoiding something like this - 
+
+.example {
+	color: #fff;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	height: 300px;
+	left: 50px;
+	left: 30px;
+	line-height: 20px;
+	position: relative;
+	top: 20px;
+	width: 300px;
+	z-index: 9;
+}
+
+Compiling
+-----------------------------------------------------
+
+Keep ALL THE COMMENTS for development but minimize the heck out of this for production
+
+CSS Class/ID Naming conventions
+-----------------------------------------------------
+
+Use hypens only
+
+.large-class-name == good
+.large_class_name == bad
+.largeClassName   == bad
+.largeclassname   == bad
+
+
+CSS Commenting
+-----------------------------------------------------
+
+Comment your code with these helpers - 
+
+/* ===== Major Section ===== */
+/*== Minor Section ==*/
+/* Explanation */
+/* !Flag For Attention! */
 /* normalize.css v1.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
