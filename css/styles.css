@@ -578,10 +578,6 @@ select,
 textarea {
   color: #222; }
 
-body {
-  font-size: 1em;
-  line-height: 1.4; }
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none; }
@@ -599,7 +595,8 @@ hr {
   padding: 0; }
 
 img {
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%; }
 
 fieldset {
   border: 0;
@@ -614,6 +611,12 @@ textarea {
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* ==========================================================================
    Helper classes
