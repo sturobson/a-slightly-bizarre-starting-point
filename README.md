@@ -41,7 +41,7 @@ Like this -
 		font-family: Georgia, "Times New Roman", serif;
 		font-weight: bold;
 		height: 300px;
-		left: 45px;
+	left: 45px;
 		line-height: 20px;
 		position: relative;
 		top: 20px;
