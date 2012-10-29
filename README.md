@@ -15,7 +15,10 @@ This is not to say don't pull this apart. In fact this 'framework' is the amalga
 
 ## CSS (LESS/Sass/SCSS) Styleguide
 
-#### Write the CSS using tab indentation. Liks 
+#### Write the CSS using tab indentation. 
+
+Like this -
+
 	.example {
 		color: #fff;
 		font-family: Georgia, "Times New Roman", serif;
@@ -29,7 +32,9 @@ This is not to say don't pull this apart. In fact this 'framework' is the amalga
 		z-index: 9;
 	}
 
-#### Indent any CSS changes for quick error finding. Like this - 
+#### Indent any CSS changes for quick error finding. 
+
+Like this - 
 
 	.example {
 		color: #fff;
@@ -44,7 +49,9 @@ This is not to say don't pull this apart. In fact this 'framework' is the amalga
 		z-index: 9;
 	}
 
-####Write all CSS rules alphabetically. This will aid quick error finding avoiding something like this - 
+####Write all CSS rules alphabetically. This will aid quick error finding.
+
+Like this - 
 
 	.example {
 		color: #fff;
@@ -70,10 +77,10 @@ CSS Class/ID Naming conventions
 
 Use hypens only
 
-.large-class-name == good
-.large_class_name == bad
-.largeClassName   == bad
-.largeclassname   == bad
+	.large-class-name == good
+	.large_class_name == bad
+	.largeClassName   == bad
+	.largeclassname   == bad
 
 
 CSS Commenting
