@@ -49,9 +49,9 @@ Like this -
 		z-index: 9;
 	}
 
-####Write all CSS rules alphabetically. This will aid quick error finding.
+####Write all CSS rules alphabetically. 
 
-Like this - 
+This will aid quick error finding. Like this - 
 
 	.example {
 		color: #fff;
@@ -80,7 +80,7 @@ Use hypens only
 	.large-class-name == good
 	.large_class_name == bad
 	.largeClassName   == bad
-	.largeclassname   == bad
+		.largeclassname   == bad
 
 
 CSS Commenting
