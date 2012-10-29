@@ -15,51 +15,50 @@ This is not to say don't pull this apart. In fact this 'framework' is the amalga
 
 ## CSS (LESS/Sass/SCSS) Styleguide
 
-#### Write the CSS using tab indentation. Liks This
-
-.example {
-	color: #fff;
-	font-family: Georgia, "Times New Roman", serif;
-	font-weight: bold;
-	height: 300px;
-	left: 50px;
-	line-height: 20px;
-	position: relative;
-	top: 20px;
-	width: 300px;
-	z-index: 9;
-}
+#### Write the CSS using tab indentation. Liks 
+	.example {
+		color: #fff;
+		font-family: Georgia, "Times New Roman", serif;
+		font-weight: bold;
+		height: 300px;
+		left: 50px;
+		line-height: 20px;
+		position: relative;
+		top: 20px;
+		width: 300px;
+		z-index: 9;
+	}
 
 #### Indent any CSS changes for quick error finding. Like this - 
 
-.example {
-	color: #fff;
-	font-family: Georgia, "Times New Roman", serif;
-	font-weight: bold;
-	height: 300px;
-left: 45px;
-	line-height: 20px;
-	position: relative;
-	top: 20px;
-	width: 300px;
-	z-index: 9;
-}
+	.example {
+		color: #fff;
+		font-family: Georgia, "Times New Roman", serif;
+		font-weight: bold;
+		height: 300px;
+		left: 45px;
+		line-height: 20px;
+		position: relative;
+		top: 20px;
+		width: 300px;
+		z-index: 9;
+	}
 
 ####Write all CSS rules alphabetically. This will aid quick error finding avoiding something like this - 
 
-.example {
-	color: #fff;
-	font-family: Georgia, "Times New Roman", serif;
-	font-weight: bold;
-	height: 300px;
-	left: 50px;
-	left: 30px;
-	line-height: 20px;
-	position: relative;
-	top: 20px;
-	width: 300px;
-	z-index: 9;
-}
+	.example {
+		color: #fff;
+		font-family: Georgia, "Times New Roman", serif;
+		font-weight: bold;
+		height: 300px;
+		left: 50px;
+		left: 30px;
+		line-height: 20px;
+		position: relative;
+		top: 20px;
+		width: 300px;
+		z-index: 9;
+	}
 
 Compiling
 -----------------------------------------------------
@@ -82,15 +81,12 @@ CSS Commenting
 
 Comment your code with these helpers - 
 
-/* ===== Major Section ===== */
-
-/*== Minor Section ==*/
+	/* ===== Major Section ===== */
+	
+	/*== Minor Section ==*/
  
-/* Explanation */
+	/* Explanation */
  
-/* !Flag For Attention! */   
+	/* !Flag For Attention! */   
 
-
-
-
-// Sass/SCSS ONLY comments to be written like this
+	// Sass/SCSS ONLY comments to be written like this
