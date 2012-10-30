@@ -132,3 +132,10 @@ For Example (using Sass) -
 		/* IE6 */ 
 	    }
 	}
+	
+
+### Credits
+
+Now where have I borrowed, stolen or rewritten this boilerplate from?
+
+* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
