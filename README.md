@@ -117,7 +117,10 @@ For targeting IE8 and below use a class of lte-ie8, then add specific hacks for 
 
 For Example (using Sass) -
     
-    .lt-ie8 & { 
+    {
+		// put the IE9 and 'other' browser CSS declarations here
+    
+    	.lt-ie8 & { 
 
     	// put the IE8 and below CSS declarations here
 	 	/* IE8 and below */ 
@@ -127,4 +130,5 @@ For Example (using Sass) -
         
 		// if you need IE6 as well then prefix the CSS with a /
 		/* IE6 */ 
-    }
+	    }
+	}
