@@ -15,7 +15,7 @@ This is not to say don't pull this apart. In fact this 'framework' is the amalga
 
 ## CSS (LESS/Sass/SCSS) Styleguide
 
-#### CSS Class/ID Naming conventions
+### CSS Class/ID Naming conventions
 
 Use hypens only
 
@@ -24,7 +24,7 @@ Use hypens only
 	.largeClassName   == bad
 	.largeclassname   == bad
 
-#### CSS Commenting
+### CSS Commenting
 
 Comment your code with these helpers - 
 
@@ -38,7 +38,7 @@ Comment your code with these helpers -
 
 	// Sass/SCSS ONLY comments to be written like this
 
-#### Write the CSS using tab indentation. 
+### Write the CSS using tab indentation. 
 
 For Example -
 
@@ -55,7 +55,7 @@ For Example -
 		z-index: 9;
 	}
 
-#### Indent any CSS changes for quick error finding. 
+### Indent any CSS changes for quick error finding. 
 
 For Example -
 
@@ -72,7 +72,7 @@ For Example -
 		z-index: 9;
 	}
 
-####Write all CSS rules alphabetically. 
+### Write all CSS rules alphabetically. 
 
 This will aid quick error finding. 
 
@@ -92,7 +92,7 @@ For Example -
 		z-index: 9;
 	}
 	
-####Always a space after a property's colon 
+### Always a space after a property's colon 
 
 	display: block;
 
@@ -100,7 +100,7 @@ not
 
 	display:block;
 
-#### CSS3, The Bleeding Edge
+### CSS3, The Bleeding Edge
 
 If you're 'hand coding' your CSS3 and not using pre-written @mixins or Compass/Bourborn then declare the CSS. Also put all CSS3 prefixed code at the end of the alphabetised stack.
 
@@ -114,7 +114,7 @@ For Example
 
 note: make sure you are using the correct prefixes for the selector. Use [Can I Use](http://caniuse.com/) and the [Mozilla Developer's Network](https://developer.mozilla.org/en-US/)Mozilla Developer's Network to check
 
-#### Internet Explorer
+### Internet Explorer
 
 For targeting IE8 and below use a class of lte-ie8, then add specific hacks for IE7 and IE6. 
 
