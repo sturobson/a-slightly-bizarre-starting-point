@@ -15,6 +15,29 @@ This is not to say don't pull this apart. In fact this 'framework' is the amalga
 
 ## CSS (LESS/Sass/SCSS) Styleguide
 
+#### CSS Class/ID Naming conventions
+
+Use hypens only
+
+	.large-class-name == good
+	.large_class_name == bad
+	.largeClassName   == bad
+	.largeclassname   == bad
+
+#### CSS Commenting
+
+Comment your code with these helpers - 
+
+	/* ===== Major Section ===== */
+	
+	/*== Minor Section ==*/
+ 
+	/* Explanation */
+ 
+	/* !Flag For Attention! */   
+
+	// Sass/SCSS ONLY comments to be written like this
+
 #### Write the CSS using tab indentation. 
 
 For Example -
@@ -68,38 +91,18 @@ For Example -
 		width: 300px;
 		z-index: 9;
 	}
-
-####Compiling
-
-Keep ALL THE COMMENTS for development but minimize the heck out of this for production
-
-#### CSS Class/ID Naming conventions
-
-Use hypens only
-
-	.large-class-name == good
-	.large_class_name == bad
-	.largeClassName   == bad
-	.largeclassname   == bad
-
-
-#### CSS Commenting
-
-Comment your code with these helpers - 
-
-	/* ===== Major Section ===== */
 	
-	/*== Minor Section ==*/
- 
-	/* Explanation */
- 
-	/* !Flag For Attention! */   
+####Always a space after a property's colon 
 
-	// Sass/SCSS ONLY comments to be written like this
-	
+	display: block;
+
+not
+
+	display:block;
+
 #### CSS3, The Bleeding Edge
 
-If you're 'hand coding' your CSS3 and not using pre-written @mixins or Compass/Bourborn then declare the CSS.
+If you're 'hand coding' your CSS3 and not using pre-written @mixins or Compass/Bourborn then declare the CSS. Also put all CSS3 prefixed code at the end of the alphabetised stack.
 
 For Example
 
@@ -132,7 +135,10 @@ For Example (using Sass) -
 		/* IE6 */ 
 	    }
 	}
-	
+
+####Compiling
+
+Keep ALL THE COMMENTS for development but minimize the heck out of this for production
 
 ### Credits
 
