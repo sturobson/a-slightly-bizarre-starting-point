@@ -67,14 +67,12 @@ This will aid quick error finding. Like this -
 		z-index: 9;
 	}
 
-Compiling
------------------------------------------------------
-
+###Compiling
+-
 Keep ALL THE COMMENTS for development but minimize the heck out of this for production
 
-CSS Class/ID Naming conventions
------------------------------------------------------
-
+### CSS Class/ID Naming conventions
+-
 Use hypens only
 
 	.large-class-name == good
@@ -83,9 +81,8 @@ Use hypens only
 	.largeclassname   == bad
 
 
-CSS Commenting
------------------------------------------------------
-
+### CSS Commenting
+-
 Comment your code with these helpers - 
 
 	/* ===== Major Section ===== */
@@ -97,3 +94,16 @@ Comment your code with these helpers -
 	/* !Flag For Attention! */   
 
 	// Sass/SCSS ONLY comments to be written like this
+	
+### CSS3, The Bleeding Edge
+-
+If you're 'hand coding' your CSS3 and not using pre-written @mixins or Compass/Bourborn then declare the CSS like this -
+
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+
+note: make sure you are using the correct prefixes for the selector. Use [Can I Use](http://caniuse.com/) and the [Mozilla Developer's Network](https://developer.mozilla.org/en-US/)Mozilla Developer's Network to check
+	
