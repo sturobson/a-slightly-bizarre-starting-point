@@ -28,13 +28,35 @@ Use hypens only
 
 Comment your code with these helpers - 
 
+#### For Sections
+
 	/* ===== Major Section ===== */
 	
 	/*== Minor Section ==*/
+	
+##### Section Spacing
+
+For spaces between Major sections allow 3 blank lines -
+
+	/* ===== Header ===== */
+		header {
+			background: red;
+			border: 1px solid white;
+			height: 3em;
+			position: relative;
+		}
+	
+	
+	
+	/* ===== Footer ===== */
+	
+#### For individual Rules
  
 	/* Explanation */
  
 	/* !Flag For Attention! */   
+	
+#### For completely uncompiled Sass comments
 
 	// Sass/SCSS ONLY comments to be written like this
 
