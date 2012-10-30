@@ -80,7 +80,7 @@ Use hypens only
 	.large-class-name == good
 	.large_class_name == bad
 	.largeClassName   == bad
-		.largeclassname   == bad
+	.largeclassname   == bad
 
 
 CSS Commenting
