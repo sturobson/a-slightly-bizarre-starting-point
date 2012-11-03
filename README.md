@@ -1,4 +1,4 @@
-# Slightly Bizarre Boilerplate
+# A Slightly Bizarre Starting Point
 
 ## A continual work in progress
 
