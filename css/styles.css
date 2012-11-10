@@ -555,30 +555,85 @@ textarea {
   box-sizing: border-box; }
 
 /* footer */
+.questions {
+  background-image: url(../img/questions-bg.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  height: 1100px;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%; }
+
+.money-back-garuntee {
+  margin: 0 auto;
+  max-width: 1140px;
+  background-color: #ff9933;
+  padding-top: 10rem;
+  padding-bottom: 12rem;
+  margin-bottom: 4rem; }
+  .money-back-garuntee img {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    margin-bottom: 4rem; }
+
+.money-back-garuntee h1 {
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-weight: normal;
+  margin: 0 auto;
+  text-align: center;
+  width: 75.4385965%; }
+  .money-back-garuntee h1 span {
+    font-weight: 700; }
+
 .licences {
   margin: 0 auto 40px auto;
   margin: 0 auto 4rem auto;
   max-width: 1140px;
-  padding-left: 4.3859649%;
   font-size: 0; }
+  @media (min-width: 50em) {
+    .licences {
+      height: 470px;
+      padding-left: 2%; } }
+  @media (min-width: 62.5em) {
+    .licences {
+      padding-left: 4.3859649%; } }
 
 .offer {
-  height: 470px;
+  min-height: 490px;
   background-color: #2f2f2f;
   display: block;
   margin: 0 auto;
-  margin-right: 3.333%;
+  margin-left: 5%;
+  margin-right: 1.111%;
   margin-bottom: 2rem;
   padding-top: 2.4rem;
   padding-left: 24px;
   position: relative;
   font-size: 0;
-  width: 96%; }
-  @media (min-width: 56em) {
+  width: 90%; }
+  @media (min-width: 21em) {
+    .offer {
+      min-height: 450px; } }
+  @media (min-width: 30em) {
+    .offer {
+      min-height: 380px; } }
+  @media (min-width: 50em) {
+    .offer {
+      display: inline-block;
+      float: left;
+      margin-left: 0;
+      min-height: 470px;
+      width: 32%; } }
+  @media (min-width: 62.5em) {
     .offer {
       margin-bottom: 0;
       display: inline-block;
-      width: 29.65%; } }
+      width: 29.35%; } }
+  @media (min-width: 62.5em) {
+    .offer {
+      margin-right: 3.333%; } }
   .offer:last-of-type {
     background-color: #ff7700;
     margin-right: 0; }
@@ -588,15 +643,29 @@ textarea {
     font-size: 3.2rem;
     letter-spacing: -2px;
     margin-bottom: 0; }
+    @media (min-width: 50em) {
+      .offer h1 {
+        font-size: 24px;
+        font-size: 2.4rem; } }
+    @media (min-width: 56.25em) {
+      .offer h1 {
+        font-size: 32px;
+        font-size: 3.2rem; } }
     .offer h1 span {
       clear: both;
       float: left;
       color: #818181;
-      font-size: 22px;
-      font-size: 2.2rem;
+      font-size: 18px;
+      font-size: 1.8rem;
       font-weight: normal;
       letter-spacing: 0;
       width: 100%; }
+      .offer h1 span:last-of-type {
+        color: #FFF; }
+      @media (min-width: 56.25em) {
+        .offer h1 span {
+          font-size: 22px;
+          font-size: 2.2rem; } }
   .offer ul {
     list-style: none;
     padding: 0; }
@@ -631,9 +700,15 @@ textarea {
   font-size: 36px;
   font-size: 3.6rem;
   font-weight: bold;
-  margin: 0 0 24px 0;
-  margin: 0 0 2.4rem 0;
+  margin: 0 0 16px 0;
+  margin: 0 0 1.6rem 0;
   position: relative; }
+  .price:last-of-type {
+    color: #FFF; }
+  @media (min-width: 56.25em) {
+    .price {
+      margin: 0 0 24px 0;
+      margin: 0 0 2.4rem 0; } }
   .price span {
     color: #ababab;
     font-size: 14px;
@@ -643,6 +718,8 @@ textarea {
     left: 90px;
     text-transform: uppercase;
     top: 14px; }
+    .price span:last-of-type {
+      color: #FFF; }
 
 .offer-description {
   color: #FFF;
@@ -670,9 +747,12 @@ textarea {
   height: 40px;
   margin-bottom: 10px;
   margin-bottom: 1rem;
-  margin-left: 1%;
   text-align: center;
-  width: 90%; }
+  width: 88%; }
+  @media (min-width: 37.5em) {
+    .learn-more, .buy-licence {
+      margin-left: 1%;
+      width: 90%; } }
   .learn-more:hover, .buy-licence:hover {
     background-color: #26170a;
     color: #FFF; }
@@ -845,7 +925,9 @@ article .quote {
     box-shadow: 0px 0px 1px 3px rgba(0, 0, 0, 0.4); }
 
 footer {
-  background-color: #2f2f2f; }
+  background-color: #2f2f2f;
+  margin: 0 auto;
+  max-width: 1140px; }
   footer a {
     cursor: pointer; }
 
