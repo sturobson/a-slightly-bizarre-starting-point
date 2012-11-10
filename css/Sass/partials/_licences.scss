@@ -1,0 +1,147 @@
+.licences {
+	margin: 0 auto 40px auto;
+	margin: 0 auto 4rem auto;
+	max-width: 1140px;
+	padding-left: 4.3859649%;
+	font-size: 0;
+}
+
+.offer {
+	height: 470px;
+	background-color: #2f2f2f;
+	display: block;
+	margin: 0 auto;
+	margin-right: 3.333%;
+	margin-bottom: 2rem;
+	padding-top: 2.4rem;
+	padding-left: 24px;
+	position: relative;
+	font-size: 0;
+	width: 96%;
+	@media (min-width: 56em) {
+		margin-bottom: 0;
+		display: inline-block;
+		width: 29.65%;
+
+	}	
+	&:last-of-type {
+		background-color: #ff7700;
+		margin-right: 0;
+	}
+	h1 {
+		color: #fFF;
+		font-size: 32px;
+		font-size: 3.2rem;
+		letter-spacing: -2px;
+		margin-bottom: 0;
+	
+		span {
+			clear: both;
+			float: left;
+			color: #818181;
+			font-size: 22px;
+			font-size: 2.2rem;
+			font-weight: normal;
+			letter-spacing: 0;
+			width: 100%;
+		}
+	}
+	
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+	li {
+		color: #FFF;
+		font-size: 14px;
+		font-size: 1.4rem;
+		display: list-item;
+		line-height: 1.2;
+		margin-bottom: 6px;
+		position: relative;
+		padding-left: 20px;
+		&:before {
+			content: "";
+			background-image: url(../img/sprite.png);
+			background-position: -4px -24px;
+			background-repeat: no-repeat;
+			left: 0;
+			height: 6px;
+			position: absolute;
+			top: 6px;
+			width: 11px;
+		}
+		a {
+			color: #ffba7e;
+			text-decoration: underline;
+		}
+	}
+}
+
+.federal-licence h1 {
+	margin-bottom: 4px;
+}
+
+.price {
+	color: #ff8b26;
+	font-size: 36px;
+	font-size: 3.6rem;
+	font-weight: bold;
+	margin: 0 0 24px 0;
+	margin: 0 0 2.4rem 0;
+	position: relative;
+	span {
+		color: darken(#FFF, 33%);
+		font-size: 14px;
+		font-size: 1.4rem;
+		font-weight: normal;
+		position: absolute;
+		left: 90px;
+		text-transform: uppercase;
+		top: 14px;
+	}
+}
+
+.offer-description {
+	color: #FFF;
+	font-size: 14px;
+	font-size: 1.4rem;
+	line-height: 1.6;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	position: relative;
+	padding-right: 20px;
+}
+.offer-buttons {
+	position: absolute;
+	bottom: 18px;
+	width: 96%;
+	max-width: 340px;
+	@media (min-width: 56em) {
+		width: 94%;
+	}	
+}
+.learn-more, .buy-licence {
+	display: block;
+	font-size: 16px;
+	font-size: 1.6rem;
+	height: 40px;
+	margin-bottom: 10px;
+	margin-bottom: 1rem;
+	margin-left: 1%;
+	text-align: center;
+	width: 90%;
+	&:hover {
+		background-color: #26170a;
+		color: #FFF;
+	}
+}
+
+.learn-more {
+	background-color: #6c6c6c;
+	color: darken(#FFF, 25%);
+}
+.buy-licence {
+	background-color: #ff9933;
+	color: #FFF;
+}
