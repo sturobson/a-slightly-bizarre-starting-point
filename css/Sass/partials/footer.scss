@@ -1,0 +1,108 @@
+footer {
+	background-color: #2f2f2f;
+	@media (min-width: 48em) {
+		height: 79px;
+	}	
+	a {
+		cursor: pointer;
+	}
+}
+
+.footer-nav {
+	padding: 2% 5%; 
+	text-align: center;
+	@media (min-width: 48em) {
+		float: left;
+		padding: 0 0 0 4.3859649%;
+	}
+	li {
+		list-style: none;
+		@media (min-width: 20em) {
+			display: inline-block;
+		}
+	}
+	a {
+		color: #6c6c6c;
+		font-size: 16px;
+		font-size: 1.6rem;
+		line-height: 2;
+		text-decoration: none;
+		text-transform: uppercase;
+		@media (min-width: 20em) {
+			margin-right: 16px;
+		}
+		@media (min-width: 48em) {
+			font-size: 12px;
+			font-size: 1.2rem;
+			line-height: 6.9;
+			margin-right: 19px;
+			vertical-align: middle;
+		}
+		&:hover {
+			color: #FFF;
+			text-decoration: underline;
+		}
+	}
+}
+
+.footer-social {
+	padding-bottom: 2rem;
+	position: relative;
+	text-align: center;
+	@media (min-width: 48em) {
+		float: right;
+		line-height: 7.9;
+		right: 4.3859649%;
+	}	
+	li {
+		display: inline-block;
+		line-height: 6.9;
+		vertical-align: middle;
+		@media (min-width: 13.75em) {
+			margin-left: 10px;
+			}
+		&:first-of-type {
+			margin-left: 0px;
+		}
+		a {
+			background-image: url(../img/social-icons.png);
+			background-repeat: no-repeat;
+			cursor: pointer;
+			display: block;
+			line-height: 3;
+			height: 30px;
+			width: 30px;
+		}
+	}
+	.facebook {
+		background-position: -4px -4px;
+		&:hover {
+			background-position-x: -38px;
+		}
+	}
+	.twitter {
+		background-position: -4px -39px;
+		&:hover {
+			background-position-x: -38px;
+		}
+	}
+	.linkedin {
+		background-position: -4px -73px;
+		&:hover {
+			background-position-x: -38px;
+		}
+	}
+	.triangle {
+		background-position: -5px -107px;
+		&:hover {
+			background-position-x: -39px;
+		}
+	}
+	.googleplus {
+		margin-right: 5px;
+		background-position: -5px -141px;
+		&:hover {
+			background-position-x: -39px;
+		}
+	}
+}

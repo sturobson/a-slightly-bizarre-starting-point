@@ -28,6 +28,10 @@ K) Print Style Sheet (H5BP generic)
 
 @import "modules/_normalize.scss";
 
+// Helpers
+
+@import "modules/_helpers.scss";
+
 // Mixins
 
 @import "modules/_mixins.scss";
@@ -36,10 +40,6 @@ K) Print Style Sheet (H5BP generic)
 
 @import "modules/_variables.scss";
 
-// Grid System
-
-@import "partials/_grids.scss";
-
 // Base
 
 @import "modules/_base.scss";
@@ -47,14 +47,6 @@ K) Print Style Sheet (H5BP generic)
 // Put Your stuff here
 
 @import "_page.scss";
-
-// Helpers
-
-@import "modules/_helpers.scss";
-
-// Internet Explorer Specific fixes
-
-@import "partials/_ie.scss";
 
 // Print styles
 
