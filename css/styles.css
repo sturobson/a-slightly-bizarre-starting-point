@@ -557,24 +557,14 @@ textarea {
 /* footer */
 footer {
   background-color: #2f2f2f; }
-  @media (min-width: 48em) {
-    footer {
-      height: 79px; } }
   footer a {
     cursor: pointer; }
 
 .footer-nav {
   padding: 2% 5%;
   text-align: center; }
-  @media (min-width: 48em) {
-    .footer-nav {
-      float: left;
-      padding: 0 0 0 4.3859649%; } }
   .footer-nav li {
     list-style: none; }
-    @media (min-width: 20em) {
-      .footer-nav li {
-        display: inline-block; } }
   .footer-nav a {
     color: #6c6c6c;
     font-size: 16px;
@@ -582,16 +572,6 @@ footer {
     line-height: 2;
     text-decoration: none;
     text-transform: uppercase; }
-    @media (min-width: 20em) {
-      .footer-nav a {
-        margin-right: 16px; } }
-    @media (min-width: 48em) {
-      .footer-nav a {
-        font-size: 12px;
-        font-size: 1.2rem;
-        line-height: 6.9;
-        margin-right: 19px;
-        vertical-align: middle; } }
     .footer-nav a:hover {
       color: #FFF;
       text-decoration: underline; }
@@ -600,18 +580,10 @@ footer {
   padding-bottom: 2rem;
   position: relative;
   text-align: center; }
-  @media (min-width: 48em) {
-    .footer-social {
-      float: right;
-      line-height: 7.9;
-      right: 4.3859649%; } }
   .footer-social li {
     display: inline-block;
     line-height: 6.9;
     vertical-align: middle; }
-    @media (min-width: 13.75em) {
-      .footer-social li {
-        margin-left: 10px; } }
     .footer-social li:first-of-type {
       margin-left: 0px; }
     .footer-social li a {
@@ -620,6 +592,7 @@ footer {
       cursor: pointer;
       display: block;
       line-height: 3;
+      margin-right: 10px;
       height: 30px;
       width: 30px; }
   .footer-social .facebook {
@@ -644,6 +617,34 @@ footer {
     .footer-social .googleplus:hover {
       background-position-x: -39px; }
 
+@media (min-width: 48em) {
+  footer {
+    height: 79px; }
+
+  .footer-nav {
+    float: left;
+    padding: 0 0 0 4.3859649%; }
+
+  .footer-nav a {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 6.9;
+    margin-right: 19px;
+    vertical-align: middle; }
+
+  .footer-social {
+    float: right;
+    line-height: 7.9;
+    right: 4.3859649%; } }
+@media (min-width: 20em) {
+  .footer-nav li {
+    display: inline-block; }
+
+  .footer-nav a {
+    margin-right: 16px; } }
+@media (min-width: 13.75em) {
+  .footer-nav li {
+    margin-left: 10px; } }
 /* ==========================================================================
    Print styles
    ========================================================================== */
