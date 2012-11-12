@@ -1,0 +1,45 @@
+.home-header {
+	background-image: url(../img/header-bg.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	height: 449px;
+	position: relative;
+	h1  {
+		background-image: url(../img/ffl-123-logo.png);
+		background-repeat: no-repeat;
+		top: 40px;
+		left: 5.2631579%;		
+		height: 61px;
+		position: relative;
+		width: 302px;
+	}
+}
+
+.header-intro {
+	height: 170px;
+	width: 100%;
+	text-align: center;
+	padding: 44px 0 0 0;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(41, 42, 40, 1);
+
+	@media (min-width: 62.5em) {
+		background-color: rgba(41, 42, 40, 0.9);
+	}
+	h2 {
+		color: #ff993f;
+		font-size: 32px;
+		font-size: 3.2rem;
+		margin: 0;
+	}
+	p {
+		color: #fff;
+		font-size: 22px;
+		font-size: 2.2rem;
+		margin: 0;
+	}
+	span {
+		font-weight: bold;
+	}
+}
