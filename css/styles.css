@@ -882,7 +882,8 @@ textarea {
     text-overflow: ellipsis;
     white-space: nowrap;
     line-height: 3.2rem;
-    width: 96%; }
+    width: 96%;
+    -moz-appearance: none; }
     @media (min-width: 56.25em) {
       .testimonials select {
         margin-bottom: 60px;
