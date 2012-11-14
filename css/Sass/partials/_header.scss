@@ -51,24 +51,32 @@
 	}
 	h2 {
 		color: #ff993f;
-		font-size: 32px;
-		font-size: 3.2rem;
+		font-size: 28px;
+		font-size: 2.8rem;
 		font-family: "museo500", arial, helvetica, sans-serif;
-		line-height: 1.5;
+		line-height: 1.2;
 		margin: 0 auto 1rem 0;
 		@media (min-width: 56.25em) {
+			font-size: 32px;
+			font-size: 3.2rem;
 			margin: 0 auto;
+			line-height: 1.5;
 		}
 	}
 	p {
 		color: #fff;
-		font-size: 22px;
-		font-size: 2.2rem;
+		font-size: 18px;
+		font-size: 1.8rem;
 		font-family: "museo100", arial, helvetica, sans-serif;
 		letter-spacing: -1px;
-		line-height: 1.5;
+		line-height: 1.4;
 		margin: 0 auto;
 		width: 81%;
+		@media only screen and (min-width: 56.25em) {
+			font-size: 22px;
+			font-size: 2.2rem;
+			line-height: 1.5;
+		}
 	}
 	span {
 		font-weight: bold;

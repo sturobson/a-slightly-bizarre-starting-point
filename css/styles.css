@@ -626,23 +626,31 @@ p, a, li, small {
       background-color: rgba(41, 42, 40, 0.9); } }
   .header-intro h2 {
     color: #ff993f;
-    font-size: 32px;
-    font-size: 3.2rem;
+    font-size: 28px;
+    font-size: 2.8rem;
     font-family: "museo500", arial, helvetica, sans-serif;
-    line-height: 1.5;
+    line-height: 1.2;
     margin: 0 auto 1rem 0; }
     @media (min-width: 56.25em) {
       .header-intro h2 {
-        margin: 0 auto; } }
+        font-size: 32px;
+        font-size: 3.2rem;
+        margin: 0 auto;
+        line-height: 1.5; } }
   .header-intro p {
     color: #fff;
-    font-size: 22px;
-    font-size: 2.2rem;
+    font-size: 18px;
+    font-size: 1.8rem;
     font-family: "museo100", arial, helvetica, sans-serif;
     letter-spacing: -1px;
-    line-height: 1.5;
+    line-height: 1.4;
     margin: 0 auto;
     width: 81%; }
+    @media only screen and (min-width: 56.25em) {
+      .header-intro p {
+        font-size: 22px;
+        font-size: 2.2rem;
+        line-height: 1.5; } }
   .header-intro span {
     font-weight: bold; }
 
@@ -706,36 +714,60 @@ p, a, li, small {
 .questions {
   background-image: url(../img/questions-bg.jpg);
   background-position: left center;
-  background-repeat: no-repeat;
-  height: 1100px;
+  background-repeat: repeat-y;
   margin: 0 auto;
   max-width: 1140px;
-  padding-top: 110px;
-  padding-top: 11rem;
+  padding-top: 10px;
+  padding-top: 1rem;
   width: 100%; }
+  @media only screen and (min-width: 56.25em) {
+    .questions {
+      padding-top: 90px;
+      padding-top: 9rem; } }
   .questions h1 {
     color: #ff9933;
-    font-size: 32px;
-    font-size: 3.2rem;
+    font-size: 28px;
+    font-size: 2.8rem;
     letter-spacing: -1px;
     text-align: center; }
+    @media only screen and (min-width: 56.25em) {
+      .questions h1 {
+        font-size: 32px;
+        font-size: 3.2rem; } }
 
 .q-and-a {
-  margin: 8rem auto 0 auto;
-  width: 56.1403509%; }
+  margin: 1rem auto 0 auto;
+  width: 96%; }
+  @media only screen and (min-width: 56.25em) {
+    .q-and-a {
+      margin: 8rem auto 0 auto;
+      width: 56.1403509%; } }
 
 .question {
   color: #FFF;
   font-family: "museo100", arial, helvetica, sans-serif;
-  font-size: 28px;
-  font-size: 2.8rem;
+  font-size: 22px;
+  font-size: 2.2rem;
   font-weight: bold; }
+  @media only screen and (min-width: 56.25em) {
+    .question {
+      font-size: 28px;
+      font-size: 2.8rem; } }
 
 .answer p, .answer li {
   color: #FFF;
   font-family: "museo100", arial, helvetica, sans-serif;
-  font-size: 22px;
-  font-size: 2.2rem; }
+  font-size: 16px;
+  font-size: 1.6rem; }
+  @media only screen and (min-width: 56.25em) {
+    .answer p, .answer li {
+      font-size: 22px;
+      font-size: 2.2rem; } }
+.answer li {
+  margin: 0 0 10px 20px; }
+  @media only screen and (min-width: 56.25em) {
+    .answer li {
+      margin: 0; } }
 
 .load-more {
   background-color: #f47721;
@@ -806,8 +838,7 @@ p, a, li, small {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6bbb8b7', endColorstr='#00ffffff',GradientType=0 );
   /* IE6-8 */
   padding-top: 40px;
-  margin-bottom: 40px;
-  height: 500px; }
+  margin-bottom: 7rem; }
 
 .offer {
   min-height: 490px;

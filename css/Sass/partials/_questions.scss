@@ -1,38 +1,63 @@
 .questions {
 	background-image: url(../img/questions-bg.jpg);
 	background-position: left center;
-	background-repeat: no-repeat;
-	height: 1100px;
+	background-repeat: repeat-y;
 	margin: 0 auto;
 	max-width: 1140px;
-	padding-top: 110px;
-	padding-top: 11rem;
+	padding-top: 10px;
+	padding-top: 1rem;
 	width: 100%;
+	@media only screen and (min-width: 56.25em) {
+	padding-top: 90px;
+	padding-top: 9rem;
+	}
 	h1 {
 		color: #ff9933;
-		font-size: 32px;
-		font-size: 3.2rem;
+		font-size: 28px;
+		font-size: 2.8rem;
 		letter-spacing: -1px;
 		text-align: center;
+		@media only screen and (min-width: 56.25em) {
+			font-size: 32px;
+			font-size: 3.2rem;
+		}
 	}
 }
 .q-and-a {
-	margin: 8rem auto 0 auto;
-	width: 56.1403509%;
+	margin: 1rem auto 0 auto;
+	width: 96%;
+	@media only screen and (min-width: 56.25em) {
+		margin: 8rem auto 0 auto;
+		width: 56.1403509%;
+	}
 }
 .question {
 	color: #FFF;
 	font-family: "museo100", arial, helvetica, sans-serif;
-	font-size: 28px;
-	font-size: 2.8rem;
+	font-size: 22px;
+	font-size: 2.2rem;
 	font-weight: bold;
+	@media only screen and (min-width: 56.25em) {
+		font-size: 28px;
+		font-size: 2.8rem;
+	}
 }
 .answer {
 	p, li {
 		color: #FFF;
 		font-family: "museo100", arial, helvetica, sans-serif;
-		font-size: 22px;
-		font-size: 2.2rem;
+		font-size: 16px;
+		font-size: 1.6rem;
+		@media only screen and (min-width: 56.25em) {
+			font-size: 22px;
+			font-size: 2.2rem;
+		}
+	}
+	li {
+		margin: 0 0 10px 20px;
+		@media only screen and (min-width: 56.25em) {
+			margin: 0;
+		}
 	}
 }
 
