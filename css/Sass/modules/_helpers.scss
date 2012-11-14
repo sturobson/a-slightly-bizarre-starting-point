@@ -2,18 +2,17 @@
    Helper classes
    ========================================================================== */
 
-.ir {
+@mixin ir {
     background-color: transparent;
     border: 0;
     overflow: hidden;
     text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 100%;
+    &:before {
+    	content: "";
+    	display: block;
+    	width: 0;
+    	height: 100%;
+    }
 }
 
 .hidden {

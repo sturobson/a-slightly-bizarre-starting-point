@@ -458,18 +458,6 @@ table {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-.ir {
-  background-color: transparent;
-  border: 0;
-  overflow: hidden;
-  text-indent: -9999px; }
-
-.ir:before {
-  content: "";
-  display: block;
-  width: 0;
-  height: 100%; }
-
 .hidden {
   display: none !important;
   visibility: hidden; }
@@ -554,7 +542,33 @@ textarea {
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* footer */
+@font-face {
+  font-family: 'museo100';
+  src: url("../fonts/museosans_100-webfont.eot");
+  src: url("../fonts/museosans_100-webfont.eot?") format("embedded-opentype"), url("../fonts/museosans_100-webfont.woff") format("woff"), url("../fonts/museosans_100-webfont.ttf") format("truetype"), url("../fonts/museosans_100-webfont.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'museo500';
+  src: url("../fonts/museosans_500-webfont.eot");
+  src: url("../fonts/museosans_500-webfont.eot?") format("embedded-opentype"), url("../fonts/museosans_500-webfont.woff") format("woff"), url("../fonts/museosans_500-webfont.ttf") format("truetype"), url("../fonts/museosans_500-webfont.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'museo700';
+  src: url("../fonts/museosans_700-webfont.eot");
+  src: url("../fonts/museosans_700-webfont.eot?") format("embedded-opentype"), url("../fonts/museosans_700-webfont.woff") format("woff"), url("../fonts/museosans_700-webfont.ttf") format("truetype"), url("../fonts/museosans_700-webfont.svg#web") format("svg");
+  font-style: normal;
+  font-weight: bold; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "museo700", Arial, Helvetica, sans-serif; }
+
+p, a, li, small {
+  font-family: "museo500", Arial, Helvetica, sans-serif; }
+
 .home-header {
   background-image: url(../img/header-bg.jpg);
   background-position: center top;
@@ -562,22 +576,51 @@ textarea {
   height: 449px;
   position: relative; }
   .home-header h1 {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    text-indent: -9999px;
     background-image: url(../img/ffl-123-logo.png);
     background-repeat: no-repeat;
-    top: 40px;
     left: 5.2631579%;
     height: 61px;
     position: relative;
+    top: 6rem;
     width: 302px; }
+    .home-header h1:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 100%; }
+    @media (min-width: 31em) {
+      .home-header h1 {
+        top: 40px; } }
+
+.log-in-btn {
+  background-color: #f47721;
+  background-color: rgba(244, 119, 33, 0.85);
+  color: #FFF;
+  font-size: 16px;
+  font-size: 1.6rem;
+  padding: 1.4rem 2%;
+  position: absolute;
+  right: 3%;
+  text-decoration: none;
+  text-transform: uppercase;
+  top: 0; }
+  .log-in-btn:hover {
+    background-color: #f47721; }
 
 .header-intro {
-  height: 170px;
   width: 100%;
   text-align: center;
-  padding: 44px 0 0 0;
+  padding: 2.4rem 0 2.4rem 0;
   position: absolute;
   bottom: 0;
   background-color: #292a28; }
+  @media (min-width: 56.25em) {
+    .header-intro {
+      padding: 4.4rem 0 4.4rem 0; } }
   @media (min-width: 62.5em) {
     .header-intro {
       background-color: rgba(41, 42, 40, 0.9); } }
@@ -585,14 +628,80 @@ textarea {
     color: #ff993f;
     font-size: 32px;
     font-size: 3.2rem;
-    margin: 0; }
+    font-family: "museo500", arial, helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0 auto 1rem 0; }
+    @media (min-width: 56.25em) {
+      .header-intro h2 {
+        margin: 0 auto; } }
   .header-intro p {
     color: #fff;
     font-size: 22px;
     font-size: 2.2rem;
-    margin: 0; }
+    font-family: "museo100", arial, helvetica, sans-serif;
+    letter-spacing: -1px;
+    line-height: 1.5;
+    margin: 0 auto;
+    width: 81%; }
   .header-intro span {
     font-weight: bold; }
+
+.feature-in {
+  margin: 0 3.5087719%; }
+  .feature-in p {
+    font-family: "museo100", arial, helvtica, sans-serif;
+    font-size: 22px;
+    font-size: 2.2rem; }
+    @media (min-width: 56.25em) {
+      .feature-in p {
+        display: inline-block; } }
+  .feature-in ul {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center; }
+    @media (min-width: 71.1875em) {
+      .feature-in ul {
+        height: 27px;
+        text-align: right; } }
+  .feature-in li {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background-image: url(../img/feature-in.gif);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 40px;
+    width: 115px;
+    display: inline-block; }
+    .feature-in li:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 100%; }
+    .feature-in li:hover {
+      background-position-x: -125px; }
+
+.guns-ammo {
+  background-position-y: 0; }
+
+.american-rifleman {
+  background-position-y: -40px; }
+
+.gun-digest {
+  background-position-y: -80px; }
+
+.shotgun-news {
+  background-position-y: -120px; }
+
+.rifle-shooter {
+  background-position-y: -160px; }
+
+.handguns {
+  background-position-y: -200px; }
+
+.shooting-times {
+  background-position-y: -240px; }
 
 .questions {
   background-image: url(../img/questions-bg.jpg);
@@ -610,6 +719,38 @@ textarea {
     font-size: 3.2rem;
     letter-spacing: -1px;
     text-align: center; }
+
+.q-and-a {
+  margin: 8rem auto 0 auto;
+  width: 56.1403509%; }
+
+.question {
+  color: #FFF;
+  font-family: "museo100", arial, helvetica, sans-serif;
+  font-size: 28px;
+  font-size: 2.8rem;
+  font-weight: bold; }
+
+.answer p, .answer li {
+  color: #FFF;
+  font-family: "museo100", arial, helvetica, sans-serif;
+  font-size: 22px;
+  font-size: 2.2rem; }
+
+.load-more {
+  background-color: #f47721;
+  color: #FFF;
+  font-size: 18px;
+  font-size: 1.8rem;
+  position: relative;
+  top: -22px;
+  top: -2.2rem; }
+  @media (min-width: 56.25em) {
+    .load-more {
+      top: -44px;
+      top: -4.4rem; } }
+  .load-more:hover {
+    background-color: #26170a; }
 
 .money-back-garuntee {
   margin: 0 auto;
@@ -928,19 +1069,6 @@ article .quote {
   cursor: pointer;
   text-transform: uppercase; }
 
-.load-more {
-  background-color: #f47721;
-  color: #FFF;
-  position: relative;
-  top: -22px;
-  top: -2.2rem; }
-  @media (min-width: 56.25em) {
-    .load-more {
-      top: -44px;
-      top: -4.4rem; } }
-  .load-more:hover {
-    background-color: #26170a; }
-
 .contact-us-form {
   max-width: 1140px;
   margin: 0 auto;
@@ -1023,7 +1151,16 @@ footer {
   .footer-social li {
     display: inline-block;
     line-height: 6.9;
-    vertical-align: middle; }
+    vertical-align: middle;
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    text-indent: -9999px; }
+    .footer-social li:before {
+      content: "";
+      display: block;
+      width: 0;
+      height: 100%; }
     .footer-social li:first-of-type {
       margin-left: 0px; }
     .footer-social li a {
@@ -1085,6 +1222,164 @@ footer {
 @media (min-width: 13.75em) {
   .footer-nav li {
     margin-left: 10px; } }
+.section-header p {
+  color: #f58323;
+  float: left;
+  margin: 0 0 0 -100px; }
+
+.print-me {
+  background-image: url(../img/sprite.png);
+  background-position: -3px -220px;
+  background-repeat: no-repeat;
+  position: relative;
+  cursor: pointer;
+  display: block;
+  left: 850px;
+  top: 70px;
+  color: #a8a7a7;
+  font-size: 14px;
+  font-size: 1.4rem;
+  padding-top: 40px;
+  text-transform: uppercase; }
+
+.heading {
+  display: inline-block;
+  font-size: 54px;
+  font-size: 5.4rem; }
+
+.sub {
+  display: inline-block;
+  font-size: 24px;
+  font-size: 2.4rem; }
+
+.section-heading {
+  margin-left: 0px; }
+
+.guide article {
+  margin: 0 auto 5.3rem auto;
+  width: 63.1578947%; }
+
+.section-details p, .section-details a {
+  color: #333;
+  font-size: 24px;
+  font-size: 2.4rem;
+  font-family: "museo100";
+  line-height: 1.6; }
+.section-details a:hover {
+  color: #f47721;
+  cursor: pointer; }
+.section-details figure {
+  width: 380px;
+  height: 285px;
+  float: left;
+  margin: 0 30px 20px -19.29825%;
+  position: relative; }
+  .section-details figure img {
+    background-color: orange;
+    width: 100%;
+    height: 100%; }
+.section-details figcaption {
+  font-size: 14px;
+  font-size: 1.4rem;
+  margin: 1.4rem 0 0 0;
+  position: relative;
+  text-align: center; }
+.section-details blockquote {
+  color: #f47721;
+  font-family: "museo100";
+  font-size: 36px;
+  font-size: 3.6rem;
+  float: right;
+  margin: 0 -10% 0 30px;
+  width: 43%; }
+
+.next-section {
+  background-color: #f47721;
+  font-size: 16px;
+  font-size: 1.6rem;
+  height: 40px;
+  line-height: 4rem;
+  padding: 0 20px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  width: 100%; }
+  .next-section a {
+    color: #ffd2aa;
+    float: left;
+    text-decoration: none; }
+    .next-section a:hover {
+      color: #FFF; }
+  .next-section p {
+    color: #FFF;
+    float: right;
+    margin: 0; }
+
+.related-info {
+  background-color: #ececec;
+  padding: 50px 0 60px 4.3859649%; }
+  @media (min-width: 63.75em) {
+    .related-info {
+      height: 490px; } }
+  .related-info h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 0; }
+  .related-info h2 {
+    font-family: "museo500";
+    font-weight: normal; }
+  .related-info ul {
+    border-bottom: 1px solid #bdbdbd; }
+    .related-info ul li {
+      border-top: 1px solid #bdbdbd;
+      display: block;
+      font-size: 18px;
+      font-size: 1.8rem;
+      height: 50px;
+      line-height: 50px;
+      vertical-align: middle; }
+      .related-info ul li p {
+        color: #F47721;
+        display: inline;
+        padding-right: 10px; }
+      .related-info ul li a {
+        text-decoration: none;
+        color: #000; }
+        .related-info ul li a:hover {
+          color: #F47721; }
+
+.related-links {
+  display: inline-block; }
+  @media (min-width: 63.75em) {
+    .related-links {
+      width: 55.2631579%; } }
+
+.related-other {
+  display: inline-block;
+  margin: 0 0 0 60px;
+  position: relative; }
+  @media (min-width: 63.75em) {
+    .related-other {
+      top: -122px; } }
+  .related-other p, .related-other a {
+    font-size: 24px;
+    font-size: 2.4rem; }
+  .related-other p {
+    margin: 0; }
+  .related-other a {
+    color: #F47721;
+    text-decoration: none; }
+    .related-other a:hover {
+      background-color: #F47721;
+      color: #000; }
+
+.advert img {
+  background-color: #CdCDCD;
+  height: 250px;
+  margin: 60px 0 0 0;
+  width: 300px; }
+
 body {
   max-width: 1140px;
   margin: 0 auto; }

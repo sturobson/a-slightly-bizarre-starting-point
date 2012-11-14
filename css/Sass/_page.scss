@@ -1,6 +1,49 @@
-/* footer */
+// Fonts
+
+
+@font-face {
+	font-family: 'museo100';
+	src: url('../fonts/museosans_100-webfont.eot');
+	src: url('../fonts/museosans_100-webfont.eot?') format('embedded-opentype'),
+		url('../fonts/museosans_100-webfont.woff') format('woff'),
+		url('../fonts/museosans_100-webfont.ttf') format('truetype'),
+		url('../fonts/museosans_100-webfont.svg#web') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'museo500';
+	src: url('../fonts/museosans_500-webfont.eot');
+	src: url('../fonts/museosans_500-webfont.eot?') format('embedded-opentype'),
+		url('../fonts/museosans_500-webfont.woff') format('woff'),
+		url('../fonts/museosans_500-webfont.ttf') format('truetype'),
+		url('../fonts/museosans_500-webfont.svg#web') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'museo700';
+	src: url('../fonts/museosans_700-webfont.eot');
+	src: url('../fonts/museosans_700-webfont.eot?') format('embedded-opentype'),
+		url('../fonts/museosans_700-webfont.woff') format('woff'),
+		url('../fonts/museosans_700-webfont.ttf') format('truetype'),
+		url('../fonts/museosans_700-webfont.svg#web') format('svg');
+	font-style: normal;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "museo700", Arial, Helvetica, sans-serif;
+}
+
+p, a, li, small { 
+	font-family: "museo500", Arial, Helvetica, sans-serif;
+}
+
 
 @import "partials/_header.scss";
+
+@import "partials/_featured-in.scss";
 
 @import "partials/_questions.scss";
 
@@ -13,6 +56,9 @@
 @import "partials/_contact-us.scss";
 
 @import "partials/_footer.scss";
+
+@import "partials/content/_styles.scss";
+
 
 body {
 	max-width: 1140px;

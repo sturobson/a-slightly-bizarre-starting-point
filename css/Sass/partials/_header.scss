@@ -5,25 +5,47 @@
 	height: 449px;
 	position: relative;
 	h1  {
+		@include ir;
 		background-image: url(../img/ffl-123-logo.png);
 		background-repeat: no-repeat;
-		top: 40px;
 		left: 5.2631579%;		
 		height: 61px;
 		position: relative;
+		top: 6rem;
 		width: 302px;
+		@media (min-width: 31em) {
+			top: 40px;
+		}
+	}
+}
+
+.log-in-btn {
+	background-color: #f47721;
+	background-color: rgba(244, 119, 33, 0.85);
+	color: #FFF;
+	font-size: 16px;
+	font-size: 1.6rem;
+	padding: 1.4rem 2%;
+	position: absolute;
+	right: 3%;
+	text-decoration: none;
+	text-transform: uppercase;
+	top: 0;
+	&:hover {
+		background-color: #f47721;
 	}
 }
 
 .header-intro {
-	height: 170px;
 	width: 100%;
 	text-align: center;
-	padding: 44px 0 0 0;
+	padding: 2.4rem 0 2.4rem 0;
 	position: absolute;
 	bottom: 0;
 	background-color: rgba(41, 42, 40, 1);
-
+	@media (min-width: 56.25em) {
+		padding: 4.4rem 0 4.4rem 0;
+	}
 	@media (min-width: 62.5em) {
 		background-color: rgba(41, 42, 40, 0.9);
 	}
@@ -31,13 +53,22 @@
 		color: #ff993f;
 		font-size: 32px;
 		font-size: 3.2rem;
-		margin: 0;
+		font-family: "museo500", arial, helvetica, sans-serif;
+		line-height: 1.5;
+		margin: 0 auto 1rem 0;
+		@media (min-width: 56.25em) {
+			margin: 0 auto;
+		}
 	}
 	p {
 		color: #fff;
 		font-size: 22px;
 		font-size: 2.2rem;
-		margin: 0;
+		font-family: "museo100", arial, helvetica, sans-serif;
+		letter-spacing: -1px;
+		line-height: 1.5;
+		margin: 0 auto;
+		width: 81%;
 	}
 	span {
 		font-weight: bold;

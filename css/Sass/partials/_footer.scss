@@ -35,6 +35,7 @@ footer {
 		display: inline-block;
 		line-height: 6.9;
 		vertical-align: middle;
+		@include ir;
 		&:first-of-type {
 			margin-left: 0px;
 		}

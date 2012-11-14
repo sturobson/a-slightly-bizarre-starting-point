@@ -104,18 +104,3 @@ article .quote {
 	cursor: pointer;
 	text-transform: uppercase;
 }
-
-.load-more {
-	background-color: #f47721;
-	color: #FFF;
-	position: relative;
-	top: -22px;
-	top: -2.2rem;
-	@media (min-width: 56.25em) {
-		top: -44px;
-		top: -4.4rem;
-	}
-	&:hover {
-		background-color: #26170a;
-	}
-}

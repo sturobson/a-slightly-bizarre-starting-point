@@ -16,3 +16,39 @@
 		text-align: center;
 	}
 }
+.q-and-a {
+	margin: 8rem auto 0 auto;
+	width: 56.1403509%;
+}
+.question {
+	color: #FFF;
+	font-family: "museo100", arial, helvetica, sans-serif;
+	font-size: 28px;
+	font-size: 2.8rem;
+	font-weight: bold;
+}
+.answer {
+	p, li {
+		color: #FFF;
+		font-family: "museo100", arial, helvetica, sans-serif;
+		font-size: 22px;
+		font-size: 2.2rem;
+	}
+}
+
+.load-more {
+	background-color: #f47721;
+	color: #FFF;
+	font-size: 18px;
+	font-size: 1.8rem;
+	position: relative;
+	top: -22px;
+	top: -2.2rem;
+	@media (min-width: 56.25em) {
+		top: -44px;
+		top: -4.4rem;
+	}
+	&:hover {
+		background-color: #26170a;
+	}
+}
