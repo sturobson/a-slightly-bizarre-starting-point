@@ -1,0 +1,83 @@
+// media query mixin (min-width only)
+
+@mixin breakpoint($point) {
+  @if $point == tiny {
+    // 20em (320px)
+      @media (min-width: 20em)  { @content; }
+  }  
+  @else if $point == small {
+    // 30em (480px)
+    @media (min-width: 30em) { @content; }
+  }
+  @else if $point == medium {
+    // 37.5em (600px) 
+    @media (min-width: 37.5em) { @content; }
+  }
+  @else if $point == regular {
+    // 48em (768px)
+    @media (min-width: 48em) { @content; }
+  }
+  @else if $point == large {
+    // 56.25em (900px)
+    @media (min-width: 56.25em) { @content; }
+  }
+  @else if $point == larger {
+    // 68.75em (1100px)
+    @media (min-width: 68.75em) { @content; }
+  }
+  @else if $point == huge {
+    // 81.25em (1300px)
+    @media (min-width: 81.25em) { @content; }
+  }
+  @else {
+    // custom media query
+    @media (min-width: $point / $doc-font-size +em) { @content; }
+  }
+}
+
+@mixin rwdIE($name, $wrapper-class, $IE: true) {
+  
+   @if $IE == true {
+     .lt-ie9 .#{$wrapper-class} {
+        @content;
+     }
+    .#{$wrapper-class}  {
+      @include breakpoint($name) {
+        @content;
+      }
+    }
+  }
+  @else if $IE == false {
+    .#{$wrapper-class}  {
+      @include breakpoint($name) {
+        @content;
+      }
+    }  
+  }
+}
+
+// font-size mixin 
+
+@mixin font-size($size, $margin:true, $line-height:$doc-line-height) {
+
+  @if $margin == true {
+    font-size: 0px + $size;
+    font-size: $size / $doc-font-size +rem;
+    line-height: round($line-height / $size*10000) / 10000;
+    margin-bottom: 0px + $line-height;
+    margin-bottom: ($line-height / $doc-font-size)+rem ;
+  }
+  
+  @else {
+    font-size: 0px + $size;
+    font-size: $size / $doc-font-size +rem;
+    line-height: round($line-height / $size*10000) / 10000;
+  }
+}
+
+// font-size for just REMs with px fallback
+
+@mixin font-rem($size) {
+  font-size: 0px + $size;
+  font-size: $size / $doc-font-size +rem;
+}
