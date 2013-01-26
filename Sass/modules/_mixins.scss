@@ -56,23 +56,37 @@
   }
 }
 
-// font-size mixin 
+// font-size mixin
 
-@mixin font-size($size, $margin:true, $line-height:$doc-line-height) {
 
-  @if $margin == true {
+@mixin font-size($size, $margin:yes, $line-height:$doc-line-height) {
+  @if $margin == yes  {
     font-size: 0px + $size;
     font-size: $size / $doc-font-size +rem;
-    line-height: round($line-height / $size*10000) / 10000;
+    line-height: ceil($size / $doc-line-height) * ($doc-line-height / $size);
     margin-bottom: 0px + $line-height;
-    margin-bottom: ($line-height / $doc-font-size)+rem ;
+    margin-bottom: ($line-height / $doc-font-size)+rem;
+}
+  @if $margin == false {
+    font-size: 0px + $size;
+    font-size: $size / $doc-font-size +rem;
+    line-height: ceil($size / $line-height) * ($line-height / $size);
   }
   
+  @if $line-height != $doc-line-height {
+    font-size: 0px + $size;
+    font-size: $size / $doc-font-size +rem;
+    line-height: $line-height;
+    margin-bottom: 0px + $line-height;
+    margin-bottom: ($line-height / $doc-font-size)+rem;
+}
   @else {
     font-size: 0px + $size;
     font-size: $size / $doc-font-size +rem;
-    line-height: round($line-height / $size*10000) / 10000;
+    margin-bottom: 0px + $margin;
+    margin-bottom: 0rem + $margin / $doc-font-size;
   }
+  
 }
 
 // font-size for just REMs with px fallback
@@ -80,4 +94,55 @@
 @mixin font-rem($size) {
   font-size: 0px + $size;
   font-size: $size / $doc-font-size +rem;
+}
+
+// inline-block
+
+@mixin inline-block {
+  display: inline-block;
+  .lt-ie8 & {
+    zoom: 1;
+    *display: inline;
+  }
+}
+
+// box-sizing with IE fallback and grid lovliness
+
+@mixin box($width:'null', $padding:'null', $margin:$gutter, $first: false) {
+
+  @if $first == false {
+    float: left;
+    margin-right: 0% + $margin;
+    padding: 0% +$padding;  
+    width: 0% + $width - $margin;
+    .lt-ie8 & { 
+      margin-right: 0% + $margin;
+      padding: 0% + $padding;
+      width: 0% + $width - $padding - $padding - $margin;
+    }    
+  }
+  @else {
+    float: left;
+    margin-left: 0% + $first;
+    margin-right: 0% + $margin;
+    padding: 0% +$padding;
+    width: 0% + $width - $margin - $first;
+    .lt-ie7 & { 
+      margin-left: 0% + $first;
+      margin-right: 0% + $margin;
+      padding: 0% + $padding;
+      width: 0% + $width - $padding - $padding - $margin - $first;
+    }
+  }
+}
+
+// rems
+
+@function rem($size) {
+  @return #{$size/$doc-font-size}rem
+}
+
+// ems
+@function em($size) {
+  @return #{$size/$doc-font-size}em
 }
