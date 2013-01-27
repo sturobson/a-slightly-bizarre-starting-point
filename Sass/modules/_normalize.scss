@@ -70,7 +70,7 @@ audio:not([controls]) {
  */
 
 html {
-    font-size: 10px;
+    font-size: $doc-font-size+px;
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
 }
@@ -122,40 +122,10 @@ a:hover {
    ========================================================================== */
 
 /*
- * Addresses font sizes and margins set differently in IE 6/7.
- * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5,
- * and Chrome.
+ * Reset the margins on the typography < an edit as I'd be changing this everytime
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0 0 0.67em 0;
-}
-
-h2 {
-    font-size: 1.5em;
-    margin: 0 0 0.83em 0;
-}
-
-h3 {
-    font-size: 1.17em;
-    margin: 0 0 1em 0;
-}
-
-h4 {
-    font-size: 1em;
-    margin: 0 0 1.33em 0;
-}
-
-h5 {
-    font-size: 0.83em;
-    margin: 0 0 1.67em 0;
-}
-
-h6 {
-    font-size: 0.75em;
-    margin: 0 0 2.33em 0;
-}
+h1, h2, h3, h4, h5, h6, blockquote, p, pre { margin: 0; }
 
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
@@ -174,10 +144,6 @@ strong {
     font-weight: bold;
 }
 
-blockquote {
-    margin: 1em 40px;
-}
-
 /*
  * Addresses styling not present in Safari 5 and Chrome.
  */
@@ -193,15 +159,6 @@ dfn {
 mark {
     background: #ff0;
     color: #000;
-}
-
-/*
- * Addresses margins set differently in IE 6/7.
- */
-
-p,
-pre {
-    margin: 1em 0;
 }
 
 /*
