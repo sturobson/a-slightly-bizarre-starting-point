@@ -125,7 +125,8 @@ a:hover {
  * Reset the margins on the typography < an edit as I'd be changing this everytime
  */
 
-h1, h2, h3, h4, h5, h6, blockquote, p, pre { margin: 0; padding: 0; }
+hgroup, ul, ol, dd, figure, pre, table, fieldset, legend, hr
+    { margin: 0; padding: 0; }
 
 /*
  * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome.
