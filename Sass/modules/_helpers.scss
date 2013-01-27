@@ -1,26 +1,19 @@
-/* ==========================================================================
-   Helper classes
+/* =============================================================================
+   Helper Classes
    ========================================================================== */
-
-@mixin ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    text-indent: -9999px;
-    &:before {
-    	content: "";
-    	display: block;
-    	width: 0;
-    	height: 100%;
-    }
+@mixin ir() {
+    color: transparent;
+    font: 0/0 a;
+    text-shadow: none;
 }
 
-.hidden {
+/* Hide from screenreaders and browsers ===================================== */
+@mixin hidden() {
     display: none !important;
     visibility: hidden;
 }
 
-.visuallyhidden {
+@mixin visually-hidden() {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -29,32 +22,35 @@
     padding: 0;
     position: absolute;
     width: 1px;
+    &.focusable:active,
+    &.focusable:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+    }
 }
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-}
-
-.invisible {
+@mixin invisible {
     visibility: hidden;
 }
 
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
+/* Clearfix ================================================================= */
+@mixin cf() {
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
 }
 
-.clearfix:after {
-    clear: both;
-}
-
-.clearfix {
-    *zoom: 1;
+/* Remove vertical spacing from nested lists ================================ */
+li > ul,
+li > ol {
+    margin-bottom:0;
 }
