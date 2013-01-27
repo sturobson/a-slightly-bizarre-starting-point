@@ -1,28 +1,12 @@
 /*
------------------------------------------------------
-CSS file for 'insert client here'
-Media: ALL THE THINGS
-
-Author: Stuart Robson 
-
-
-Table of contents
------------------------------------------------------
-
-A) NORMALIZE ALL THE THINGS
-B) Constants (colours, font stuff)
-C) Layout
-D) Typography
-E) Headings 
-F) Navigation
-G) Forms
-H) Figures & Images
-I) Page Specific Elements
-J) Helpers
-K) Print Style Sheet (H5BP generic)
-
-
-*/
+ * -----------------------------------------------------
+ * CSS file for 'insert client here'
+ * Media: ALL THE THINGS
+ * 
+ * Author: Stuart Robson 
+ * 
+ * -----------------------------------------------------
+ */
 
 // Normalize
 
@@ -57,5 +41,3 @@ K) Print Style Sheet (H5BP generic)
 $debugMode:         false;
 
 @import "modules/_debug.scss";
-
-html { font-family: museo sans, verdana; }
