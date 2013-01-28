@@ -8,14 +8,6 @@
  * -----------------------------------------------------
  */
 
-// Normalize
-
-@import "modules/_normalize.scss";
-
-// Helpers
-
-@import "modules/_helpers.scss";
-
 // Mixins
 
 @import "modules/_mixins.scss";
@@ -23,6 +15,14 @@
 // Variables
 
 @import "modules/_variables.scss";
+
+// Normalize
+
+@import "modules/_normalize.scss";
+
+// Helpers
+
+@import "modules/_helpers.scss";
 
 // Base
 
