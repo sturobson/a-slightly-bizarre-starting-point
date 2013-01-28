@@ -56,34 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "Sass/modules/_variables.scss",
-			"settings":
-			{
-				"buffer_size": 69,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Sass/modules/_mixins.scss",
-			"settings":
-			{
-				"buffer_size": 3136,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 234,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11224,
+				"buffer_size": 2515,
 				"line_ending": "Unix"
 			}
 		}
@@ -91,15 +67,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 110.0,
 		"selected_items":
 		[
 			[
-				"instal",
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"insta",
+				"instal",
 				"Package Control: Install Package"
 			],
 			[
@@ -192,11 +168,24 @@
 	},
 	"file_history":
 	[
-		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_helpers.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_base.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/_page.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_debug.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_print.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/plugins.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/humans.txt",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/robots.txt",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/main.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/css/styles.css",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/404.html",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
 		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_mixins.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Dolly-Mixtures-Market-V2/css/styles.css",
 		"/Users/RoadRunner/Dropbox/Clients/Dolly-Mixtures-Market-V2/index.php",
@@ -296,104 +285,23 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Sass/modules/_variables.scss",
-					"settings":
-					{
-						"buffer_size": 69,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Sass/modules/_mixins.scss",
-					"settings":
-					{
-						"buffer_size": 3136,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2243,
-								2243
-							]
-						],
-						"settings":
-						{
-							"auto_indent": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1296.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 234,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								211,
-								211
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 11224,
+						"buffer_size": 2515,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3357,
-								3357
+								1638,
+								1638
 							]
 						],
 						"settings":
@@ -402,7 +310,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2858.0,
+						"translation.y": 1074.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
