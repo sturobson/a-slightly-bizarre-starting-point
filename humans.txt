@@ -2,17 +2,17 @@
 # The humans responsible & technology colophon
 
 # TEAM
-	Stuart Robson -- KREATOR -- @sturobson
-    
+	Stuart Robson -- maker -- @sturobson
+
 
 # THANKS
 
     this is where I thank the people I've borrowed code from
-    
+
     HTML5 Boilerplate
-    
+
     Harry Roberts
-    
+
     Matt Betteridge
 
 # TECHNOLOGY COLOPHON
