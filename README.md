@@ -4,9 +4,9 @@
 
 Okay, so this is just a 'forever in progress' little framework/boilerplate for my own personal consumption.
 
-It fits how I develop 'le web' and because of this I may do things differently to how you do. 
+It fits how I develop 'le web' and because of this I may do things differently to how you do.
 
-* I like my SCSS/CSS set up a little differently. 
+* I like my SCSS/CSS set up a little differently.
 * I like my HTML <head> set up a particular way.
 * I like tabs over spaces
 * I like indenting my HTML how I like to do it.
@@ -26,14 +26,34 @@ Use hypens only
 
 ### CSS Commenting
 
-Comment your code with these helpers - 
+Comment your code with these helpers -
+#### OOCSS Module commenting
+
+To aid in writing your CSS without referring to your HTML add the code snippet within this CSS Comment for ease and clarity.
+
+	/*
+	 * @description:	/
+	 *
+	 * @author:	    	/	Stuart Robson
+	 * @version:	    /	0.1
+	 * @date:	    	/	dd/mm/yyyy
+	 *
+	 *
+	 * @example:		/
+	 *
+	 *
+	 * @type:			/
+	 * @notes:			/
+	 * @tags:			/	^	^	^	^	^
+	 */
+
 
 #### For Sections
 
 	/* ===== Major Section ===== */
-	
+
 	/*== Minor Section ==*/
-	
+
 ##### Section Spacing
 
 For spaces between Major sections allow 3 blank lines -
@@ -45,22 +65,22 @@ For spaces between Major sections allow 3 blank lines -
 			height: 3em;
 			position: relative;
 		}
-	
-	
-	
+
+
+
 	/* ===== Footer ===== */
-	
+
 #### For individual Rules
- 
+
 	/* Explanation */
- 
-	/* !Flag For Attention! */   
-	
+
+	/* !Flag For Attention! */
+
 #### For completely uncompiled Sass comments
 
 	// Sass/SCSS ONLY comments to be written like this
 
-### Write the CSS using tab indentation. 
+### Write the CSS using tab indentation.
 
 For Example -
 
@@ -77,7 +97,7 @@ For Example -
 		z-index: 9;
 	}
 
-### Indent any CSS changes for quick error finding. 
+### Indent any CSS changes for quick error finding.
 
 For Example -
 
@@ -94,11 +114,11 @@ For Example -
 		z-index: 9;
 	}
 
-### Write all CSS rules alphabetically. 
+### Write all CSS rules alphabetically.
 
-This will aid quick error finding. 
+This will aid quick error finding.
 
-For Example -  
+For Example -
 
 	.example {
 		color: #fff;
@@ -113,8 +133,8 @@ For Example -
 		width: 300px;
 		z-index: 9;
 	}
-	
-### Always a space after a property's colon 
+
+### Always a space after a property's colon
 
 	display: block;
 
@@ -138,23 +158,23 @@ note: make sure you are using the correct prefixes for the selector. Use [Can I 
 
 ### Internet Explorer
 
-For targeting IE8 and below use a class of lte-ie8, then add specific hacks for IE7 and IE6. 
+For targeting IE8 and below use a class of lte-ie8, then add specific hacks for IE7 and IE6.
 
 For Example (using Sass) -
-    
+
     {
 		// put the IE9 and 'other' browser CSS declarations here
-    
-    	.lt-ie8 & { 
+
+    	.lt-ie8 & {
 
     	// put the IE8 and below CSS declarations here
-	 	/* IE8 and below */ 
-   
+	 	/* IE8 and below */
+
     	// if you need IE7 as well then prefix the CSS with a *
-     	/* IE7 and below */  
-        
+     	/* IE7 and below */
+
 		// if you need IE6 as well then prefix the CSS with a /
-		/* IE6 */ 
+		/* IE6 */
 	    }
 	}
 
