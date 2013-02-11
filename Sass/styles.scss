@@ -2,42 +2,34 @@
  * -----------------------------------------------------
  * CSS file for 'insert client here'
  * Media: ALL THE THINGS
- * 
- * Author: Stuart Robson 
- * 
+ *
+ * Author: Stuart Robson
+ *
  * -----------------------------------------------------
  */
 
 // Mixins
-
 @import "modules/_mixins.scss";
 
 // Variables
-
 @import "modules/_variables.scss";
 
 // Normalize
-
 @import "modules/_normalize.scss";
 
 // Helpers
-
 @import "modules/_helpers.scss";
 
 // Base
-
 @import "modules/_base.scss";
 
 // Put Your stuff here
-
 @import "_page.scss";
 
 // Print styles
-
 @import "modules/_print.scss";
 
-// DEBUG MODE 
-
+// DEBUG MODE
 $debugMode:         false;
 
 @import "modules/_debug.scss";
