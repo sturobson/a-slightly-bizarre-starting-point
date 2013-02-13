@@ -445,9 +445,63 @@ li > ul,
 li > ol {
   margin-bottom: 0; }
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
+/*------------------------------------*\
+    main header
+\*------------------------------------*/
+/*
+ * @description:	/	header
+ *
+ * @author:	    	/	Stuart Robson
+ * @version:	    /	0.1
+ * @date:	    	/	dd/mm/yyyy
+ *
+ *
+ * @example:		/
+ *
+ *
+ * @type:			/
+ * @notes:			/
+ * @tags:			/	^	^	^	^	^
+ */
+/*------------------------------------*\
+    main navigation
+\*------------------------------------*/
+/*
+ * @description:	/	main navigation
+ *
+ * @author:	    	/	Stuart Robson
+ * @version:	    /	0.1
+ * @date:	    	/	dd/mm/yyyy
+ *
+ *
+ * @example:		/
+ *
+ *
+ * @type:			/
+ * @notes:			/
+ * @tags:			/	^	^	^	^	^
+ */
+/*------------------------------------*\
+    site footer
+\*------------------------------------*/
+/*
+ * @description:	/	site footer
+ *
+ * @author:	    	/	Stuart Robson
+ * @version:	    /	0.1
+ * @date:	    	/	dd/mm/yyyy
+ *
+ *
+ * @example:		/
+ *
+ *
+ * @type:			/
+ * @notes:			/
+ * @tags:			/	^	^	^	^	^
+ */
+/*------------------------------------*\
+    print styles
+\*------------------------------------*/
 @media print {
   * {
     background: transparent !important;
