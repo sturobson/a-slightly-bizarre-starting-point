@@ -1,4 +1,9 @@
 {% block content %}
-	<h1>Always Twisted, Slightly Bizarre, since 2006</h1>
-	<!-- TODO: Add some pages and content -->
+	<!-- TODO: this is where the magic happens -->
+
+	{% block content %}
+	   {% include "header" %}
+	   {% include "main" %}
+	   {% include "footer" %}
+	{% endblock %}
 {% endblock %}
