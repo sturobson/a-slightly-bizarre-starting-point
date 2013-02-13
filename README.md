@@ -1,8 +1,8 @@
-# A Slightly Bizarre Starting Point
+# A Slightly Bizarre Mixture
 
 ## A continual work in progress
 
-Okay, so this is just a 'forever in progress' little framework/boilerplate for my own personal consumption.
+This is the mixture.io boilerplate/framework of my slightly bizarre starting point for my own personal consumption..
 
 It fits how I develop 'le web' and because of this I may do things differently to how you do.
 
