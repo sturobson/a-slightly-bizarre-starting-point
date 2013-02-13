@@ -1,21 +1,64 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <!-- Title block allowing child pages to override -->
-        <title>{% block title %}Mixture{% endblock %}</title>
-        <link rel="shortcut icon" type="image/ico" href="{{ "/favicon.ico" | root_asset }}" />
-        <!-- Styles -->
-        {{ "/styles/app.css" | asset_url | stylesheet_tag }}
-        <!-- Style block allowing child pages to inject their own styles -->
-        {% block styles %}{% endblock %}
-    </head>
-    <body>
-        <div id="wrapper">
-            {% block content %}{% endblock %}
-        </div>
-        <script src="//code.jquery.com/jquery.min.js"></script>
-        <!-- Script block allowing child pages to inject their own scripts -->
-        {% block scripts %}{% endblock %}
-        {{ "/scripts/app.js" | asset_url | script_tag }}
-    </body>
+<!DOCTYPE html>
+<!--[if lt IE 8]> <html class="no-js lt-ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!-- Title block allowing child pages to override -->
+    <title>{% block title %}Mixture{% endblock %}</title>
+
+    <meta name="author" content="Stuart Robson">
+    <meta name="description" content="">
+
+    <meta http-equiv="cleartype" content="on">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="shortcut icon" type="image/ico" href="{{ "/favicon.ico" | root_asset }}" />
+
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+
+    <meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#222222">
+
+    <!-- Styles -->
+    {{ "/styles/styles.css" | asset_url | stylesheet_tag }}
+    <!-- Style block allowing child pages to inject their own styles -->
+    {% block styles %}{% endblock %}
+
+    <!-- modernizr script, remove/edit for production -->
+    {{ "/js/vendor/modernizr.js" | asset_url | script_tag }}
+
+</head>
+
+<body>
+
+<!--[if lt IE 7]>
+<p class="chromeframe">You are using an outdated browser.</p> <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+
+<!-- start coding -->
+<div id="wrapper">
+    {% block content %}{% endblock %}
+</div> <!-- /#wrapper -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery.js"><\/script>')</script>
+<!-- Script block allowing child pages to inject their own scripts -->
+{% block scripts %}{% endblock %}
+{{ "/js/plugins.js" | asset_url | script_tag }}
+{{ "/js/main.js" | asset_url | script_tag }}
+
+<script>
+var _gaq=[['_setAccount','UA-XXXX-XX'],['_trackPageview']];(function(a,b){var c=a.createElement(b),d=a.getElementsByTagName(b)[0];c.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";d.parentNode.insertBefore(c,d)})(document,"script");
+</script>
+</body>
 </html>
