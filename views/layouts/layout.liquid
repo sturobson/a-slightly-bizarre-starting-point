@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Title block allowing child pages to override -->
+        <title>{% block title %}Mixture{% endblock %}</title>
+        <link rel="shortcut icon" type="image/ico" href="{{ "/favicon.ico" | root_asset }}" />
+        <!-- Styles -->
+        {{ "/styles/app.css" | asset_url | stylesheet_tag }}
+        <!-- Style block allowing child pages to inject their own styles -->
+        {% block styles %}{% endblock %}
+    </head>
+    <body>
+        <div id="wrapper">
+            {% block content %}{% endblock %}
+        </div>
+        <script src="//code.jquery.com/jquery.min.js"></script>
+        <!-- Script block allowing child pages to inject their own scripts -->
+        {% block scripts %}{% endblock %}
+        {{ "/scripts/app.js" | asset_url | script_tag }}
+    </body>
+</html>

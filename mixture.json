@@ -1,0 +1,22 @@
+{
+  "debug": false,
+  "defaultLayout": "layout",
+  "defaultPort": null,
+  "defaultTemplate": "index",
+  "description": "An empty Mixture project",
+  "hostName": null,
+  "lintScripts": false,
+  "optimiseImages": true,
+  "project": "aslightlybizarrestartingpoint",
+  "rootAssets": "public",
+  "rootIncludes": "views/includes",
+  "rootLayouts": "views/layouts",
+  "rootViews": "views",
+  "scriptOutput": "public/scripts",
+  "styleOutput": "public/styles",
+  "type": "mixture",
+  "urlid": null,
+  "useCompass": false,
+  "username": null,
+  "version": "1.0.0.0"
+}
