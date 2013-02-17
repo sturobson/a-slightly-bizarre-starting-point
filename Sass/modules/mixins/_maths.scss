@@ -1,0 +1,9 @@
+// rems
+	@function rem($size) {
+		@return #{$size/$doc-font-size}rem
+	}
+
+// ems
+	@function em($size) {
+		@return #{$size/$doc-font-size}em
+	}
