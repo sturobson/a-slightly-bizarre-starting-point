@@ -52,7 +52,7 @@
  * @tags:			/	^SCSS	^mixin	^	^	^
  */
 
-	@mixin font-rem($size) {
-	  	font-size: 0px + $size;
-	  	font-size: $size / $doc-font-size +rem;
-	}
+@mixin font-rem($size) {
+  	font-size: 0px + $size;
+  	font-size: $size / $doc-font-size +rem;
+}
