@@ -121,6 +121,14 @@ nav ul, nav ol {
     list-style-image: none;
 }
 
+
+li{
+    > ul,
+    > ol{
+         margin-bottom:0;
+     }
+}
+
 /*------------------------------------*\
     embedded content
 \*------------------------------------*/
@@ -145,6 +153,10 @@ svg:not(:root) {
 /* addresses 'no margin' error ------ */
 figure {
     margin: 0;
+}
+
+figure > img{
+    display:block;
 }
 
 /*------------------------------------*\

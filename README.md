@@ -181,9 +181,3 @@ For Example (using Sass) -
 ####Compiling
 
 Keep ALL THE COMMENTS for development but minimize the heck out of this for production
-
-### Credits
-
-Now where have I borrowed, stolen or rewritten this boilerplate from?
-
-* [HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate)
