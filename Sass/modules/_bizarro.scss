@@ -14,8 +14,8 @@ html {
 /* { box-sizing: border-box } ------- */
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* display: block; fix -------------- */
@@ -80,102 +80,69 @@ b, strong {
     font-weight: bold;
 }
 
-/*
-* Improves readability of pre-formatted text in all browsers.
-*/
-
+/* improve pre readability  --------- */
 pre {
     white-space: pre;
     white-space: pre-wrap;
     word-wrap: break-word;
 }
 
-/*
-* Addresses CSS quotes not supported in IE 6/7.
-*/
-
+/* fixes IE6/7 support (lack of) ---- */
 q {
     quotes: none;
 }
 
-/*
-* Addresses `quotes` property not supported in Safari 4.
-*/
-
-q:before,
-q:after {
+/* corrects Safar 4 lack of support - */
+q:before, q:after {
     content: '';
     content: none;
 }
 
-/*
-* Addresses inconsistent and variable font size in all browsers.
-*/
-
-small {
-    font-size: 80%;
-}
-
-/*
-* Prevents `sub` and `sup` affecting `line-height` in all browsers.
-*/
-
-sub,
-sup {
+/* fixes sub/sup line-height issues - */
+sub, sup {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
 }
-
 sup {
     top: -0.5em;
 }
-
 sub {
     bottom: -0.25em;
 }
 
 /*------------------------------------*\
-lists
+    lists
 \*------------------------------------*/
 
-nav ul,
-nav ol {
+nav ul, nav ol {
     list-style: none;
     list-style-image: none;
 }
 
 /*------------------------------------*\
-embedded content
+    embedded content
 \*------------------------------------*/
 
-/*
-* 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
-* 2. Improves image quality when scaled in IE 7.
-*/
-
 img {
-border: 0; /* 1 */
--ms-interpolation-mode: bicubic; /* 2 */
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+    min-height: auto;
+    vertical-align: middle;
 }
 
-/*
-* Corrects overflow displayed oddly in IE 9.
-*/
-
+/* fixes IE9 oddity ----------------- */
 svg:not(:root) {
     overflow: hidden;
 }
 
 /*------------------------------------*\
-figure
+    figure
 \*------------------------------------*/
 
-/*
-* Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
-*/
-
+/* addresses 'no margin' error ------ */
 figure {
     margin: 0;
 }
@@ -184,10 +151,7 @@ figure {
 forms
 \*------------------------------------*/
 
-/*
-* Corrects margin displayed oddly in IE 6/7.
-*/
-
+/* fixes IE6/7 margin error --------- */
 form {
     margin: 0;
 }
@@ -232,11 +196,7 @@ vertical-align: baseline; /* 3 */
 *vertical-align: middle; /* 3 */
 }
 
-/*
-* Addresses Firefox 3+ setting `line-height` on `input` using `!important` in
-* the UA stylesheet.
-*/
-
+/* addresses FF3 line-height bug ---- */
 button,
 input {
     line-height: normal;
@@ -264,7 +224,7 @@ cursor: pointer; /* 3 */
 /*
 * Re-set default cursor for disabled elements.
 */
-
+/* addresses 'no margin' error ------ */
 button[disabled],
 input[disabled] {
     cursor: default;
@@ -324,37 +284,24 @@ input::-moz-focus-inner {
 */
 
 textarea {
-overflow: auto; /* 1 */
-vertical-align: top; /* 2 */
+    overflow: auto; /* 1 */
+    vertical-align: top; /* 2 */
+    resize: vertical;
 }
 
 /*------------------------------------*\
 tables
 \*------------------------------------*/
 
-/*
-* Remove most spacing between table cells.
-*/
-
+/* remove cell spacing  ------------- */
 table {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-
 /*------------------------------------*\
 'other'
 \*------------------------------------*/
-
-img {
-    max-width: 100%;
-    min-height: auto;
-    vertical-align: middle;
-}
-
-textarea {
-    resize: vertical;
-}
 
 .chromeframe {
     background: #ccc;
