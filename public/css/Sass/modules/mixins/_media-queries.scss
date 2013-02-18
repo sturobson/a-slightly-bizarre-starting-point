@@ -1,0 +1,40 @@
+// media query mixin (min-width only)
+
+	@mixin breakpoint($point) {
+		// 20em (320px)
+		@if $point == tiny { @media (min-width: 20em)  { @content; } }
+		// 30em (480px)
+		@else if $point == small { @media (min-width: 30em) { @content; } }
+		// 37.5em (600px)
+		@else if $point == medium { @media (min-width: 37.5em) { @content; } }
+		// 48em (768px)
+		@else if $point == regular { @media (min-width: 48em) { @content; }}
+		// 56.25em (900px)
+		@else if $point == large { @media (min-width: 56.25em) { @content; } }
+		// 68.75em (1100px)
+		@else if $point == larger { @media (min-width: 68.75em) { @content; } }
+		// 81.25em (1300px)
+		@else if $point == huge { @media (min-width: 81.25em) { @content; } }
+		// custom media query
+		@else { @media (min-width: $point / $doc-font-size +em) { @content; } }
+	}
+
+	@mixin rwdIE($name, $wrapper-class, $IE: true) {
+		@if $IE == true {
+			.lt-ie9 .#{$wrapper-class} {
+				@content;
+			}
+			.#{$wrapper-class}  {
+				@include breakpoint($name) {
+					@content;
+				}
+			}
+		}
+		@else if $IE == false {
+			.#{$wrapper-class}  {
+				@include breakpoint($name) {
+					@content;
+				}
+			}
+		}
+	}

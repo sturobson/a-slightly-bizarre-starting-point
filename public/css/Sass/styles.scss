@@ -15,13 +15,16 @@
 @import "modules/_variables.scss";
 
 // Normalize
-@import "modules/_normalize.scss";
+@import "modules/_bizarro.scss";
 
 // Helpers
 @import "modules/_helpers.scss";
 
 // Grids
 @import "modules/_grids.scss";
+
+// Base
+@import "modules/_base.scss";
 
 // Put Your stuff here
 @import "_page.scss";

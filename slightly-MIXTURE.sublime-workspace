@@ -123,7 +123,7 @@
 			"file": "public/css/Sass/modules/_grids.scss",
 			"settings":
 			{
-				"buffer_size": 2216,
+				"buffer_size": 1,
 				"line_ending": "Unix"
 			}
 		}
@@ -131,16 +131,32 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 111.0,
 		"selected_items":
 		[
 			[
-				"readm",
-				"ReadmePlease"
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
+			],
+			[
+				"readm",
+				"ReadmePlease"
 			],
 			[
 				"instal",
@@ -149,10 +165,6 @@
 			[
 				"insal",
 				"Package Control: Install Package"
-			],
-			[
-				"remo",
-				"Package Control: Remove Package"
 			],
 			[
 				"tod",
@@ -195,10 +207,6 @@
 				"Snippet: html"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
-			],
-			[
 				"les",
 				"Set Syntax: LESS"
 			],
@@ -219,7 +227,7 @@
 				"Indentation: Convert to Tabs"
 			]
 		],
-		"width": 550.0
+		"width": 461.0
 	},
 	"console":
 	{
@@ -791,8 +799,8 @@
 						"selection":
 						[
 							[
-								109,
-								109
+								304,
+								304
 							]
 						],
 						"settings":
@@ -1010,7 +1018,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 13025.0,
+						"translation.y": 12477.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1018,7 +1026,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1261,8 +1269,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								153,
+								153
 							]
 						],
 						"settings":
@@ -1368,15 +1376,15 @@
 					"file": "public/css/Sass/modules/_grids.scss",
 					"settings":
 					{
-						"buffer_size": 2216,
+						"buffer_size": 1,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2216,
-								2216
+								1,
+								1
 							]
 						],
 						"settings":
@@ -1474,7 +1482,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2833.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
