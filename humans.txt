@@ -4,18 +4,13 @@
 # TEAM
 	Stuart Robson -- maker -- @sturobson
 
-
 # THANKS
 
-    this is where I thank the people I've borrowed code from
-
-    HTML5 Boilerplate
-
-    Harry Roberts
-
-    Matt Betteridge
+    HTML5 Boilerplate < most of this 'framework'
+    Harry Roberts < edited version of the CSS guidelines
+    Nicolas Gallagher < edited version of normalize.css
+    Kristina & Adam Auckland < CSS example styling
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+    HTML5, CSS3, jQuery, Modernizr, Sass/SCSS
