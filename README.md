@@ -11,7 +11,7 @@ It fits how I develop 'le web' and because of this I may do things differently t
 * I like tabs over spaces
 * I like indenting my HTML how I like to do it.
 
-This is not to say don't pull this apart. In fact this 'framework' is the amalgamation of many other boilerplates and frameworks of which (when I've time) I'll list and link here.
+This is not to say don't pull this apart. In fact this 'framework' is the amalgamation of many other boilerplates and frameworks.codc
 
 ## CSS (LESS/Sass/SCSS) Styleguide
 
@@ -50,15 +50,19 @@ To aid in writing your CSS without referring to your HTML add the code snippet w
 
 #### For Sections
 
-	/* ===== Major Section ===== */
+	/* ---------------------------------- */
 
-	/*== Minor Section ==*/
+and edit it like this
+
+	/* typography ----------------------- */
 
 ##### Section Spacing
 
 For spaces between Major sections allow 3 blank lines -
 
-	/* ===== Header ===== */
+
+	/* headings ------------------------- */
+
 		header {
 			background: red;
 			border: 1px solid white;
@@ -68,7 +72,7 @@ For spaces between Major sections allow 3 blank lines -
 
 
 
-	/* ===== Footer ===== */
+	/* footer --------------------------- */
 
 #### For individual Rules
 
