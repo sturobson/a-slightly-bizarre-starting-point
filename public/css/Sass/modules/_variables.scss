@@ -1,6 +1,38 @@
-// initial variables set-up
+/*------------------------------------*\
+    variables
+\*------------------------------------*/
 
-$doc-font-size:16;
-$doc-line-height:24;
+/* document font declarations ------- */
 
-// colors
+$doc-font-size: 16;
+$doc-line-height: 24;
+
+/* branding  ------------------------ */
+
+$base-color: black;
+$comp-color: green;
+$3rd-color: red;
+$alt-1: grey;
+$alt-2: white;
+
+$selection: $link-color;
+$selection-text: #FFF;
+
+/* typography  ------------------------ */
+
+$body-font: Georgia, serif;
+$header-font: $body-font
+
+/* links  --------------------------- */
+
+$link-color: red;
+$link-color-hover: darken($link-color, 10);
+$link-color-visited: $link-color-hover;
+$link-color-focus: darken($link-color-hover, 10);
+
+/* errors & info  ------------------- */
+
+$error: red;
+$warning: purple;
+$success: green;
+$information: wheat;
