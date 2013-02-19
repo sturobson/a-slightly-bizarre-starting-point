@@ -73,6 +73,11 @@ h6, .zeta{
 
 /* Elements -------------------------- */
 
+::-moz-selection, ::selection {
+	background-color: $selection;
+	color: $selection-text;
+}
+
 small,.milli {
 
 }

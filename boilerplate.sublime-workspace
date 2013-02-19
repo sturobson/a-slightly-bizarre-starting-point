@@ -56,10 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "Sass/partials/_typorgraphy.scss",
 			"settings":
 			{
-				"buffer_size": 2509,
+				"buffer_size": 1080,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,15 +67,7 @@
 			"file": "Sass/modules/_variables.scss",
 			"settings":
 			{
-				"buffer_size": 80,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Sass/modules/_grids.scss",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 763,
 				"line_ending": "Unix"
 			}
 		}
@@ -83,7 +75,7 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 110.0,
+		"height": 151.0,
 		"selected_items":
 		[
 			[
@@ -185,17 +177,33 @@
 	"file_history":
 	[
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_grids.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_bizarro.scss",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_helpers.scss",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_base.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/_page.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_debug.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_print.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/plugins.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_misc.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_maths.scss",
+		"/Users/RoadRunner/Downloads/compl-sass.sublime-completions",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/partials/_typorgraphy.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/index.html",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/README.md",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/humans.txt",
+		"/Users/RoadRunner/Desktop/test",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_typography.scss",
+		"/Users/RoadRunner/Dropbox/Clients/unison dev/unison dev/public/styles/Sass/partials/_content.scss",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/csstype.sublime-snippet",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_shapes.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_media-queries.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_miscs.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_maths",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/variables/_shapes.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_debug.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/plugins.js",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/robots.txt",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/main.js",
 		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/css/styles.css",
@@ -268,6 +276,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"list",
 			"#",
 			"%",
 			"@@",
@@ -302,23 +311,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "Sass/partials/_typorgraphy.scss",
 					"settings":
 					{
-						"buffer_size": 2509,
+						"buffer_size": 1080,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								740,
+								740
 							]
 						],
 						"settings":
@@ -329,6 +338,7 @@
 								"README",
 								"FIXME"
 							],
+							"auto_indent": true,
 							"csslint_options":
 							{
 								"adjoining-classes": "warning",
@@ -411,11 +421,11 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 738.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -425,7 +435,7 @@
 					"file": "Sass/modules/_variables.scss",
 					"settings":
 					{
-						"buffer_size": 80,
+						"buffer_size": 763,
 						"regions":
 						{
 						},
@@ -529,123 +539,7 @@
 							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Sass/modules/_grids.scss",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"csslint_options":
-							{
-								"adjoining-classes": "warning",
-								"box-model": true,
-								"box-sizing": "warning",
-								"compatible-vendor-prefixes": "warning",
-								"display-property-grouping": true,
-								"duplicate-background-images": "warning",
-								"duplicate-properties": true,
-								"empty-rules": true,
-								"errors": true,
-								"fallback-colors": "warning",
-								"floats": "warning",
-								"font-faces": "warning",
-								"font-sizes": "warning",
-								"gradients": "warning",
-								"ids": "warning",
-								"import": "warning",
-								"important": "warning",
-								"known-properties": true,
-								"outline-none": "warning",
-								"overqualified-elements": "warning",
-								"qualified-headings": "warning",
-								"regex-selectors": "warning",
-								"rules-count": "warning",
-								"shorthand": "warning",
-								"star-property-hack": "warning",
-								"text-indent": "warning",
-								"underscore-property-hack": "warning",
-								"unique-headings": "warning",
-								"universal-selector": "warning",
-								"vendor-prefix": true,
-								"zero-units": "warning"
-							},
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8": true,
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"perl_linter": "perlcritic",
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 2.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_mark_style": "outline",
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"C++": "c",
-								"Python Django": "python",
-								"Ruby on Rails": "ruby"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 40.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
