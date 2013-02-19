@@ -1,9 +1,43 @@
-// rems
+/*
+* @description:	/	Calculate the REM from the passed number and the document font-size variable
+*
+*
+* @author:	    	/	Stuart Robson
+* @version:	    	/	0.1
+* @date:	    	/	18/03/2013
+*
+*
+* @example:			/
+*
+						a { font-size: rem(16); }
+*
+* @type:			/	SCSS Function
+* @notes:			/
+* @tags:			/	^SCSS	^function	^	^	^
+*/
+
 	@function rem($size) {
 		@return #{$size/$doc-font-size}rem
 	}
 
-// ems
+/*
+* @description:	/	Calculate the EM from the passed number and the document font-size variable
+*
+*
+* @author:	    	/	Stuart Robson
+* @version:	    	/	0.1
+* @date:	    	/	18/03/2013
+*
+*
+* @example:			/
+*
+						a { font-size: em(16); }
+*
+* @type:			/	SCSS Function
+* @notes:			/
+* @tags:			/	^SCSS	^function	^	^	^
+*/
+
 	@function em($size) {
 		@return #{$size/$doc-font-size}em
 	}

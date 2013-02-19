@@ -1,11 +1,12 @@
 /*
- * -----------------------------------------------------
+ * ------------------------------------
  * CSS file for 'insert client here'
+ *
  * Media: ALL THE THINGS
  *
  * Author: Stuart Robson
  *
- * -----------------------------------------------------
+ * ------------------------------------
  */
 
 // Mixins
@@ -24,7 +25,7 @@
 @import "modules/_grids.scss";
 
 // Base
-@import "modules/_base.scss";
+@import "partials/_base.scss";
 
 // Put Your stuff here
 @import "_page.scss";

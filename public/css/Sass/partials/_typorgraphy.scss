@@ -16,19 +16,19 @@ body {
 
 a {
 	&:link {
-
+		color: $link-color;
 	}
-
 	&:visited {
-
+		color: $link-color-visited
 	}
-
-	&:hover, &:focus {
-
+	&:hover {
+		color: $link-color-hover
 	}
-
 	&:active {
-
+		color: $link-color-hover
+	}
+	&:focus {
+		color: $link-color-focus
 	}
 }
 
@@ -43,31 +43,31 @@ p, h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, figure, pre, table, fieldset, leg
 [role="main"] p,
 [role="main"] ul,
 [role="main"] ol {
-
+	font-family: $body-font;
 }
 
 /* Headings ------------------------- */
 
 h1, h2, h3, h4, h5, h6 {
-
+	font-family: $header-font;
 }
 
-h1,.alpha{
+h1, .alpha{
 
 }
-h2,.beta{
+h2, .beta{
 
 }
-h3,.gamma{
+h3, .gamma{
 
 }
-h4,.delta{
+h4, .delta{
 
 }
-h5,.epsilon{
+h5, .epsilon{
 
 }
-h6,.zeta{
+h6, .zeta{
 
 }
 
