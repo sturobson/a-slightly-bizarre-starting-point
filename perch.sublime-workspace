@@ -1,0 +1,366 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"cl-b",
+				"cl-b	clear: both;"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"bn",
+				"bd-n	border: none;"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"text",
+				"text-transform"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 151.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insal",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"tod",
+				"Show TODOs: Open files only"
+			],
+			[
+				"todo",
+				"Show TODOs: Open files only"
+			],
+			[
+				"tot",
+				"View: Toggle Tabs"
+			],
+			[
+				"ream",
+				"ReadmePlease"
+			],
+			[
+				"to",
+				"Show TODOs: Open files only"
+			],
+			[
+				"sideb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"sideba",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"ins pac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"les",
+				"Set Syntax: LESS"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"pac",
+				"Package Control: Add Repository"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"",
+				"Indentation: Convert to Tabs"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 176.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/RoadRunner/Dropbox/Clients/a-slightly-bizarre-starting-perch/rwd.html",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_grids.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_bizarro.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_helpers.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_base.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/_page.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_print.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_misc.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_maths.scss",
+		"/Users/RoadRunner/Downloads/compl-sass.sublime-completions",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/partials/_typorgraphy.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/index.html",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/README.md",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/humans.txt",
+		"/Users/RoadRunner/Desktop/test",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_typography.scss",
+		"/Users/RoadRunner/Dropbox/Clients/unison dev/unison dev/public/styles/Sass/partials/_content.scss",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/csstype.sublime-snippet",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_shapes.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_media-queries.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_miscs.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/mixins/_maths",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/variables/_shapes.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_debug.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/plugins.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/robots.txt",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/main.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/css/styles.css",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/404.html",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_mixins.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Dolly-Mixtures-Market-V2/css/styles.css",
+		"/Users/RoadRunner/Dropbox/Clients/Dolly-Mixtures-Market-V2/index.php",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/views/includes/header.liquid",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/js/scripts.js",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/styles.css",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/styles.min.css",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_base.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_normalize.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_print.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_uniform.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/modules/_variables.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/partials/_footer.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/partials/_grids.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/partials/_header.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/partials/_main.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/js/modernizr.js",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/js/modernizr.min.js",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/js/zepto.js",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/js/zepto.min.js",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/views/index.liquid",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/views/includes/main-content.liquid",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/views/layouts/layout.liquid",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/css/Sass/partials/_ie.scss",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/mixture.json",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/views/includes/main/site-intro.liquid",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/views/includes/main/we-work-with.liquid",
+		"/Users/RoadRunner/Dropbox/Clients/Action Rocket/actionrocket.co/site/public/img/sprites.png",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/theshed.sublime-project",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/elements.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/normalize.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/style-landscape.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/events.html",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/style-narrow.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/style-tablet.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/style.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/style-desktop.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/less/style-mobile.less",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/index.html",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Alignment/readme.creole",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/robots.txt",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/index.php",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/css/style.css",
+		"/Users/RoadRunner/Dropbox/Clients/Matt Bee/shed/content/js/scripts.js",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/CSScomb/Default (OSX).sublime-keymap",
+		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"list",
+			"#",
+			"%",
+			"@@",
+			"extend",
+			"%",
+			"sprite",
+			"and-also",
+			"after",
+			"twitter",
+			"bg-sprite",
+			"239px",
+			"buy",
+			"div"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$",
+			"@",
+			"@include",
+			"$"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sprite",
+				"public/css/Sass/partials/_footer.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true
+}
