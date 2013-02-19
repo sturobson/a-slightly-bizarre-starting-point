@@ -1,13 +1,15 @@
-/* =============================================================================
-   Helper Classes
-   ========================================================================== */
+/*------------------------------------*\
+    helpers
+\*------------------------------------*/
+
 @mixin ir() {
     color: transparent;
     font: 0/0 a;
     text-shadow: none;
 }
 
-/* Hide from screenreaders and browsers ===================================== */
+/* hide from everything ------------- */
+
 @mixin hidden() {
     display: none !important;
     visibility: hidden;
@@ -37,7 +39,8 @@
     visibility: hidden;
 }
 
-/* Clearfix ================================================================= */
+/* clearfix ------------------------- */
+
 @mixin cf() {
     &:before,
     &:after {
@@ -49,7 +52,8 @@
     }
 }
 
-/* Remove vertical spacing from nested lists ================================ */
+/* remove margin from nested lists -- */
+
 li > ul,
 li > ol {
     margin-bottom:0;
