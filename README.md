@@ -1,6 +1,8 @@
-# A Slightly Bizarre Starting Point
+# A Slightly Bizarre Perch
 
 ## A continual work in progress
+
+(note: this requires a perch licence)
 
 Okay, so this is just a 'forever in progress' little framework/boilerplate for my own personal consumption.
 
