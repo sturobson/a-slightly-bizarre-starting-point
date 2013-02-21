@@ -1,43 +1,77 @@
 /*
-* @description:	/	Calculate the REM from the passed number and the document font-size variable
-*
-*
-* @author:	    	/	Stuart Robson
-* @version:	    	/	0.1
-* @date:	    	/	18/03/2013
-*
-*
-* @example:			/
-*
-						a { font-size: rem(16); }
-*
-* @type:			/	SCSS Function
-* @notes:			/
-* @tags:			/	^SCSS	^function	^	^	^
-*/
+ * @description:	/	Calculate the REM from the passed number and the document font-size
+ *						variable
+ *
+ *
+ * @author:	    	/	Stuart Robson
+ * @version:	    	/	0.1
+ * @date:	    	/	18/02/2013
+ *
+ *
+ * @example:			/
+ *
+ *						a { font-size: rem(16); }
+ *
+ * @type:			/	SCSS Function
+ * @notes:			/
+ * @tags:			/	^SCSS	^function	^	^	^
+ */
 
 	@function rem($size) {
 		@return #{$size/$doc-font-size}rem
 	}
 
 /*
-* @description:	/	Calculate the EM from the passed number and the document font-size variable
+ * @description:	/	Calculate the EM from the passed number and the document font-size
+ *						variable
+ *
+ *
+ * @author:	    	/	Stuart Robson
+ * @version:	    	/	0.1
+ * @date:	    	/	18/02/2013
+ *
+ *
+ * @example:			/
+ *
+ *						a { font-size: em(16); }
+ *
+ * @type:			/	SCSS Function
+ * @notes:			/
+ * @tags:			/	^SCSS	^function	^	^	^
+ */
+
+	@function em($size) {
+		@return #{$size/$doc-font-size}em
+	}
+
+/*
+* @description:	/	create width and height CSS from variables. If only the $width variable
+*					passed then it uses it for the height also. To make a square.
 *
 *
 * @author:	    	/	Stuart Robson
 * @version:	    	/	0.1
-* @date:	    	/	18/03/2013
+* @date:	    	/	21/03/2013
 *
 *
 * @example:			/
 *
-						a { font-size: em(16); }
+*						div { @include size(48px); }
+*					or
+*						div ( @include size(48px, 24px); )
 *
 * @type:			/	SCSS Function
 * @notes:			/
 * @tags:			/	^SCSS	^function	^	^	^
 */
 
-	@function em($size) {
-		@return #{$size/$doc-font-size}em
+	@mixin size($width, $height: null) {
+		@if $height == null {
+			width: $width;
+			height: $width;
+		}
+		@else {
+			width: $width;
+			height: $height;
+		}
 	}
