@@ -60,9 +60,9 @@
 *					or
 *						div ( @include size(48px, 24px); )
 *
-* @type:			/	SCSS Function
+* @type:			/	SCSS mixin
 * @notes:			/
-* @tags:			/	^SCSS	^function	^	^	^
+* @tags:			/	^SCSS	^mixin	^	^	^
 */
 
 	@mixin size($width, $height: null) {
