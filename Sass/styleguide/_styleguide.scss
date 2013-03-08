@@ -1,0 +1,314 @@
+
+
+@mixin size($thesize) {
+  width: $thesize;
+	height: $thesize;
+}
+
+@mixin size($width, $height) {
+	width: $width;
+	height: $height;
+}
+
+// Colours
+
+// So we're going to set up some quick colour swatches here. In this example there's 3 colours plus black and white. You can add more to it.
+
+$base-color:		#d15300;
+$second-color:  	#383131;
+$third-color:  		#F2F2F2;
+$black: 			#000000;
+$white: 			#FFFFFF;
+
+// Base Colour Tints
+
+$base-20: tint($base-color, 20%);
+$base-40: tint($base-color, 40%);
+$base-60: tint($base-color, 60%);
+$base-80: tint($base-color, 80%);
+$base-120: shade($base-color, 20%);
+$base-140: shade($base-color, 40%);
+$base-160: shade($base-color, 60%);
+$base-180: shade($base-color, 80%);
+
+$base-20: tint($base-color,20%);
+$base-30: tint($base-color,30%);
+$base-40: tint($base-color,20%);
+$base-50: tint($base-color,50%);
+$base-60: tint($base-color,60%);
+$base-70: tint($base-color,70%);
+$base-80: tint($base-color,80%);
+$base-90: tint($base-color,90%);
+
+// second Colour Tints
+
+$second-20: tint($second-color, 20%);
+$second-40: tint($second-color, 40%);
+$second-60: tint($second-color, 60%);
+$second-80: tint($second-color, 80%);
+$second-120: shade($second-color, 20%);
+$second-140: shade($second-color, 40%);
+$second-160: shade($second-color, 60%);
+$second-180: shade($second-color, 80%);
+
+// third Colour Tints
+
+$third-20: tint($third-color, 20%);
+$third-40: tint($third-color, 40%);
+$third-60: tint($third-color, 60%);
+$third-80: tint($third-color, 80%);
+$third-120: shade($third-color, 20%);
+$third-140: shade($third-color, 40%);
+$third-160: shade($third-color, 60%);
+$third-180: shade($third-color, 80%);
+
+
+/* --- Style Guide Stuff --- */
+
+body {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.color-swatch {
+	border-right: 1px solid $black;
+}
+
+
+.color-swatch li {
+	border: 1px solid $black;
+	display: inline-block;
+	list-style: none;
+	@include size (48px, 48px);
+	margin-top: 21px;
+}
+
+.primary-color li, .secondary-color li, .third-color li {
+	position: relative;
+}
+
+.primary-color .base{ background-color: $base-color; }
+
+.primary-color .base-20{ background-color: $base-20; }
+.primary-color .base-40{ background-color: $base-40; }
+.primary-color .base-60{ background-color: $base-60; }
+.primary-color .base-80{ background-color: $base-80; }
+.primary-color .base-120{ background-color: $base-120; }
+.primary-color .base-140{ background-color: $base-140; }
+.primary-color .base-160{ background-color: $base-160; }
+.primary-color .base-180{ background-color: $base-180; }
+
+.secondary-color .base { background-color: $second-color; }
+.secondary-color .base-20 { background-color: $second-20; }
+.secondary-color .base-40 { background-color: $second-40; }
+.secondary-color .base-60 { background-color: $second-60; }
+.secondary-color .base-80 { background-color: $second-80; }
+.secondary-color .base-120 { background-color: $second-120; }
+.secondary-color .base-140 { background-color: $second-140; }
+.secondary-color .base-160 { background-color: $second-160; }
+.secondary-color .base-180 { background-color: $second-180; }
+
+.third-color .base { background-color: $third-color; }
+.third-color .base-20 { background-color: $third-20; }
+.third-color .base-40 { background-color: $third-40; }
+.third-color .base-60 { background-color: $third-60; }
+.third-color .base-80 { background-color: $third-80; }
+.third-color .base-120 { background-color: $third-120; }
+.third-color .base-140 { background-color: $third-140; }
+.third-color .base-160 { background-color: $third-160; }
+.third-color .base-180 { background-color: $third-180; }
+
+.primary-color, .secondary-color, .third-color {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+.primary-color .base:before {
+	position: absolute;
+	content: "#{$base-color}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-20:before {
+	position: absolute;
+	content: "#{$base-20}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-40:before {
+	position: absolute;
+	content: "#{$base-40}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-60:before {
+	position: absolute;
+	content: "#{$base-60}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-80:before {
+	position: absolute;
+	content: "#{$base-80}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-120:before {
+	position: absolute;
+	content: "#{$base-120}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-140:before {
+	position: absolute;
+	content: "#{$base-140}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-160:before {
+	position: absolute;
+	content: "#{$base-160}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.primary-color .base-180:before {
+	position: absolute;
+	content: "#{$base-180}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base:before {
+	position: absolute;
+	content: "#{$second-color}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-20:before {
+	position: absolute;
+	content: "#{$second-20}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-40:before {
+	position: absolute;
+	content: "#{$second-40}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-60:before {
+	position: absolute;
+	content: "#{$second-60}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-80:before {
+	position: absolute;
+	content: "#{$base-80}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-120:before {
+	position: absolute;
+	content: "#{$base-120}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-140:before {
+	position: absolute;
+	content: "#{$base-140}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-160:before {
+	position: absolute;
+	content: "#{$base-160}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.secondary-color .base-180:before {
+	position: absolute;
+	content: "#{$base-180}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+
+.third-color .base:before {
+	position: absolute;
+	content: "#{$third-color}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-20:before {
+	position: absolute;
+	content: "#{$third-20}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-40:before {
+	position: absolute;
+	content: "#{$third-40}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-60:before {
+	position: absolute;
+	content: "#{$third-60}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-80:before {
+	position: absolute;
+	content: "#{$third-80}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-120:before {
+	position: absolute;
+	content: "#{$third-120}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-140:before {
+	position: absolute;
+	content: "#{$third-140}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-160:before {
+	position: absolute;
+	content: "#{$third-160}";
+	top: -21px;
+	margin: 0 auto;
+}
+
+.third-color .base-180:before {
+	position: absolute;
+	content: "#{$third-180}";
+	top: -21px;
+	margin: 0 auto;
+}

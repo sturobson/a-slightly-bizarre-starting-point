@@ -1,13 +1,3 @@
-/*
- * ------------------------------------
- * CSS file for 'insert client here'
- *
- * Media: ALL THE THINGS
- *
- * Author: Stuart Robson
- *
- * ------------------------------------
- */
 /*------------------------------------*\
     mixins
 \*------------------------------------*/
@@ -438,113 +428,326 @@ table {
   padding: 0.2em 0;
 }
 
-/*------------------------------------*\
-    helpers
-\*------------------------------------*/
-/* hide from everything ------------- */
-/* clearfix ------------------------- */
-/* remove margin from nested lists -- */
-li > ul,
-li > ol {
-  margin-bottom: 0;
+/* --- Style Guide Stuff --- */
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
-/*------------------------------------*\
-    grids
-\*------------------------------------*/
-/*------------------------------------*\
-    base
-\*------------------------------------*/
-/*------------------------------------*\
-    import the partials
-\*------------------------------------*/
-/*------------------------------------*\
-    Typography
-\*------------------------------------*/
-/* overwhemingly specific ----------- */
-/* links ---------------------------- */
-/* one way margins ------------------ */
-/* copy ----------------------------- */
-[role="main"] p,
-[role="main"] ul,
-[role="main"] ol {
-  font-family: Georgia, serif;
+.color-swatch {
+  border-right: 1px solid black;
 }
 
-/* Headings ------------------------- */
-h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, serif;
+.color-swatch li {
+  border: 1px solid black;
+  display: inline-block;
+  list-style: none;
+  width: 48px;
+  height: 48px;
+  margin-top: 21px;
 }
 
-/* Elements -------------------------- */
-/*------------------------------------*\
-    print styles
-\*------------------------------------*/
-@media print {
-  * {
-    background: transparent !important;
-    color: black !important;
-    /* Black prints faster: h5bp.com/s */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
-
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
-
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
-
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
-
-  /*
-   * Don't show links for images, or javascript/internal links
-   */
-  .ir a:after,
-  a[href^="javascript:"]:after,
-  a[href^="#"]:after {
-    content: "";
-  }
-
-  pre,
-  blockquote {
-    border: 1px solid #999999;
-    page-break-inside: avoid;
-  }
-
-  thead {
-    display: table-header-group;
-    /* h5bp.com/t */
-  }
-
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
-
-  img {
-    max-width: 100% !important;
-  }
-
-  @page {
-    margin: 0.5cm;
+.primary-color li, .secondary-color li, .third-color li {
+  position: relative;
 }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
-
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+.primary-color .base {
+  background-color: #d15300;
 }
-/* endif */
+
+.primary-color .base-20 {
+  background-color: tint(#d15300, 20%);
+}
+
+.primary-color .base-40 {
+  background-color: tint(#d15300, 20%);
+}
+
+.primary-color .base-60 {
+  background-color: tint(#d15300, 60%);
+}
+
+.primary-color .base-80 {
+  background-color: tint(#d15300, 80%);
+}
+
+.primary-color .base-120 {
+  background-color: shade(#d15300, 20%);
+}
+
+.primary-color .base-140 {
+  background-color: shade(#d15300, 40%);
+}
+
+.primary-color .base-160 {
+  background-color: shade(#d15300, 60%);
+}
+
+.primary-color .base-180 {
+  background-color: shade(#d15300, 80%);
+}
+
+.secondary-color .base {
+  background-color: #383131;
+}
+
+.secondary-color .base-20 {
+  background-color: tint(#383131, 20%);
+}
+
+.secondary-color .base-40 {
+  background-color: tint(#383131, 40%);
+}
+
+.secondary-color .base-60 {
+  background-color: tint(#383131, 60%);
+}
+
+.secondary-color .base-80 {
+  background-color: tint(#383131, 80%);
+}
+
+.secondary-color .base-120 {
+  background-color: shade(#383131, 20%);
+}
+
+.secondary-color .base-140 {
+  background-color: shade(#383131, 40%);
+}
+
+.secondary-color .base-160 {
+  background-color: shade(#383131, 60%);
+}
+
+.secondary-color .base-180 {
+  background-color: shade(#383131, 80%);
+}
+
+.third-color .base {
+  background-color: #f2f2f2;
+}
+
+.third-color .base-20 {
+  background-color: tint(#f2f2f2, 20%);
+}
+
+.third-color .base-40 {
+  background-color: tint(#f2f2f2, 40%);
+}
+
+.third-color .base-60 {
+  background-color: tint(#f2f2f2, 60%);
+}
+
+.third-color .base-80 {
+  background-color: tint(#f2f2f2, 80%);
+}
+
+.third-color .base-120 {
+  background-color: shade(#f2f2f2, 20%);
+}
+
+.third-color .base-140 {
+  background-color: shade(#f2f2f2, 40%);
+}
+
+.third-color .base-160 {
+  background-color: shade(#f2f2f2, 60%);
+}
+
+.third-color .base-180 {
+  background-color: shade(#f2f2f2, 80%);
+}
+
+.primary-color, .secondary-color, .third-color {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.primary-color .base:before {
+  position: absolute;
+  content: "#d15300";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-20:before {
+  position: absolute;
+  content: "tint(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-40:before {
+  position: absolute;
+  content: "tint(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-60:before {
+  position: absolute;
+  content: "tint(#d15300, 60%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-80:before {
+  position: absolute;
+  content: "tint(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-120:before {
+  position: absolute;
+  content: "shade(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-140:before {
+  position: absolute;
+  content: "shade(#d15300, 40%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-160:before {
+  position: absolute;
+  content: "shade(#d15300, 60%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.primary-color .base-180:before {
+  position: absolute;
+  content: "shade(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base:before {
+  position: absolute;
+  content: "#383131";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-20:before {
+  position: absolute;
+  content: "tint(#383131, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-40:before {
+  position: absolute;
+  content: "tint(#383131, 40%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-60:before {
+  position: absolute;
+  content: "tint(#383131, 60%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-80:before {
+  position: absolute;
+  content: "tint(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-120:before {
+  position: absolute;
+  content: "shade(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-140:before {
+  position: absolute;
+  content: "shade(#d15300, 40%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-160:before {
+  position: absolute;
+  content: "shade(#d15300, 60%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.secondary-color .base-180:before {
+  position: absolute;
+  content: "shade(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base:before {
+  position: absolute;
+  content: "#f2f2f2";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-20:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-40:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 40%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-60:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 60%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-80:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 80%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-120:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 20%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-140:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 40%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-160:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 60%)";
+  top: -21px;
+  margin: 0 auto;
+}
+
+.third-color .base-180:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 80%)";
+  top: -21px;
+  margin: 0 auto;
+}

@@ -46,24 +46,174 @@
 
 <!-- start coding -->
 <div id="wrapper">
+	<header>
+	  <h1>baseSCSS, a styleguide using Sass, SCSS and Compass</h1>
+	</header>
 
-	<header role="banner">
+	<div role="main">
+		<section class="color">
+			<h2>colors</h2>
+			<div class="primary">
+				<h3>Primary Color</h3>
 
-		<nav role="navigation">
+				<ul class="color-swatch primary-color">
+					<li class="base"></li>
+					<li class="base-80"></li>
+					<li class="base-60"></li>
+					<li class="base-40"></li>
+					<li class="base-20"></li>
+				</ul>
+				<ul class="color-swatch primary-color">
+					<li class="base-180"></li>
+					<li class="base-160"></li>
+					<li class="base-140"></li>
+					<li class="base-120"></li>
+					<li class="base"></li>
+				</ul>
+			</div>
+			<div class="secondary">
+				<h3>Secondary Color</h3>
 
-		</nav> <!-- /nav -->
+				<ul class="color-swatch secondary-color">
+					<li class="base"></li>
+					<li class="base-80"></li>
+					<li class="base-60"></li>
+					<li class="base-40"></li>
+					<li class="base-20"></li>
+				</ul>
+				<ul class="color-swatch secondary-color">
+					<li class="base-180"></li>
+					<li class="base-160"></li>
+					<li class="base-140"></li>
+					<li class="base-120"></li>
+					<li class="base"></li>
+				</ul>
+			</div>
+			<div class="tertiary">
+				<h3>Tertiary Color</h3>
+				<ul class="color-swatch third-color">
+					<li class="base"></li>
+					<li class="base-80"></li>
+					<li class="base-60"></li>
+					<li class="base-40"></li>
+					<li class="base-20"></li>
+				</ul>
 
-	</header> <!-- /header -->
+				<ul class="color-swatch third-color">
+					<li class="base-180"></li>
+					<li class="base-160"></li>
+					<li class="base-140"></li>
+					<li class="base-120"></li>
+					<li class="base"></li>
+				</ul>
+			</div>
+		</section>
 
-	<section role="main">
+	</div>
 
-	</section> <!-- /main -->
+	<section class="typography">
 
-	<footer role="contentinfo">
+	<h1>Typography</h1>
+	<h2>Heading and Body Copy</h2>
 
-		<small>Copyright &copy; <time datetime="2013">2013</time></small>
+	 <h1>Heading 1 &lt;h1&gt;</h1>
+	 <h2>Heading 2 &lt;h2&gt;</h2>
+	 <h3>Heading 3 &lt;h3&gt;</h3>
+	 <h4>Heading 4 &lt;h4&gt;</h4>
+	 <h5>Heading 5 &lt;h5&gt;</h5>
+	 <h6>Heading 6 &lt;h6&gt;</h6>
 
-	</footer> <!-- /footer -->
+	 <h3>Paragraphs &lt;p&gt;</h3>
+	 <p>This styleguide uses {insert main font} or {second choice} if available with a fallback to {third choice} for the majority of text on the site.</p>
+	 <p>There are also times when we want to give words &lt;em&gt; <em>emphasis</em> or make them &lt;strong&gt; <strong>important</strong> too.</p>
+	 <h3>Blockquotes &lt;blockquote&gt;</h3>
+	 <blockquote>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+	 ultricies eget, tempor sit amet, ante. </blockquote>
+	 <h3>Lists</h3>
+	 <h4>Unordered List</h4>
+	    <ul>
+	        <li>This is a list item</li>
+	        <li>So is this - there could be more</li>
+	        <li>Make sure to style list items to:
+	            <ul>
+	                <li>Not forgetting child list items</li>
+	                <li>Not forgetting child list items</li>
+	                <li>Not forgetting child list items</li>
+	                <li>Not forgetting child list items</li>
+	            </ul>
+	        </li>
+	        <li>A couple more</li>
+	        <li>top level list items</li>
+	    </ul>
+	<h4>Ordered List</h4>
+	    <ol>
+	       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+	       <li>Aliquam tincidunt mauris eu risus.
+	        <ol>
+	            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+	            <li>Aliquam tincidunt mauris eu risus.</li>
+	        </ol>
+	        </li>
+	       <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+	       <li>Aliquam tincidunt mauris eu risus.
+	    </ol>
+	    <h2>A sub heading which is not as important as the first, but is quite imporant overall</h2>
+	    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	    <table>
+	        <tr>
+	            <th>Table Heading</th>
+	            <th>Table Heading</th>
+	        </tr>
+	        <tr>
+	            <td>table data</td>
+	            <td>table data</td>
+	        </tr>
+	        <tr>
+	            <td>table data</td>
+	            <td>table data</td>
+	        </tr>
+	        <tr>
+	            <td>table data</td>
+	            <td>table data</td>
+	        </tr>
+	        <tr>
+	            <td>table data</td>
+	            <td>table data</td>
+	        </tr>
+	    </table>
+
+	    <h3>A sub heading which is not as important as the second, but should be used with consideration</h3>
+	    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	    <blockquote><p>“Ooh - a blockquote! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.”</p></blockquote>
+	    <h4>A sub heading which is not as important as the second, but should be used with consideration</h4>
+	    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	    <pre><code>
+	#header h1 a {
+	    display: block;
+	    width: 300px;
+	    height: 80px;
+	}
+	</code></pre>
+	    <h5>A sub heading which is not as important as the second, but should be used with consideration</h5>
+	    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	    <dl>
+	   <dt>Definition list</dt>
+	   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+		commodo consequat.</dd>
+		   <dt>Lorem ipsum dolor sit amet</dt>
+		   <dd>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+		commodo consequat.</dd>
+		</dl>
+		<h6>This heading plays a relatively small bit part role, if you use it at all</h6>
+	    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	</section> <!-- /typograhy -->
+	</div> <!-- /main -->
+
+	<footer>
+
+	</footer>
 
 </div> <!-- /#wrapper -->
 
