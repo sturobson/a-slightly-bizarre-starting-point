@@ -120,7 +120,7 @@ For Example -
 
 ### Write all CSS rules alphabetically.
 
-This will aid quick error finding.
+This will aid quick error finding (notice the 2 left declarations).
 
 For Example -
 
