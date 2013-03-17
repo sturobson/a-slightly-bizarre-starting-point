@@ -1,3 +1,4 @@
+
 /*------------------------------------*\
     Typography
 \*------------------------------------*/
@@ -16,19 +17,15 @@ body {
 
 a {
 	&:link {
-		color: $link-color;
 	}
 	&:visited {
-		color: $link-color-visited
 	}
 	&:hover {
-		color: $link-color-hover
 	}
 	&:active {
-		color: $link-color-hover
 	}
 	&:focus {
-		color: $link-color-focus
+
 	}
 }
 
@@ -72,6 +69,10 @@ h6, .zeta{
 }
 
 /* Elements -------------------------- */
+
+::-moz-selection, ::selection {
+
+}
 
 small,.milli {
 

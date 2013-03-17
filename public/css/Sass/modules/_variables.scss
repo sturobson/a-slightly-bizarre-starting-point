@@ -11,17 +11,15 @@ $doc-line-height: 24;
 
 $base-color: black;
 $comp-color: green;
-$3rd-color: red;
+$third-color: red;
 $alt-1: grey;
 $alt-2: white;
 
-$selection: $link-color;
-$selection-text: #FFF;
 
 /* typography  ------------------------ */
 
 $body-font: Georgia, serif;
-$header-font: $body-font
+$header-font: $body-font;
 
 /* links  --------------------------- */
 
@@ -36,3 +34,8 @@ $error: red;
 $warning: purple;
 $success: green;
 $information: wheat;
+
+/* selection colours ---------------- */
+
+$selection: $link-color;
+$selection-text: #FFF;
