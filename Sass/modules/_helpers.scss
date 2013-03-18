@@ -1,6 +1,6 @@
-/*------------------------------------*\
-    helpers
-\*------------------------------------*/
+// -------------------------------------
+//   helpers
+// -------------------------------------
 
 @mixin ir() {
     color: transparent;
@@ -8,7 +8,7 @@
     text-shadow: none;
 }
 
-/* hide from everything ------------- */
+// hide from everything ----------------
 
 @mixin hidden() {
     display: none !important;
@@ -39,7 +39,7 @@
     visibility: hidden;
 }
 
-/* clearfix ------------------------- */
+// clearfix ----------------------------
 
 @mixin cf() {
     &:before,
@@ -52,7 +52,7 @@
     }
 }
 
-/* remove margin from nested lists -- */
+// remove margin from nested lists -----
 
 li > ul,
 li > ol {

@@ -1,7 +1,6 @@
-
-/*------------------------------------*\
-    Typography
-\*------------------------------------*/
+// -------------------------------------
+//   Typography
+// -------------------------------------
 
 /* overwhemingly specific ----------- */
 
@@ -13,7 +12,7 @@ body {
 
 }
 
-/* links ---------------------------- */
+// links -------------------------------
 
 a {
 	&:link {
@@ -29,13 +28,13 @@ a {
 	}
 }
 
-/* one way margins ------------------ */
+// one way margins ---------------------
 
 p, h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, figure, pre, table, fieldset, legend, hr {
 
 }
 
-/* copy ----------------------------- */
+// copy --------------------------------
 
 [role="main"] p,
 [role="main"] ul,
@@ -43,7 +42,7 @@ p, h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dd, figure, pre, table, fieldset, leg
 	font-family: $body-font;
 }
 
-/* Headings ------------------------- */
+// headings ----------------------------
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font;
@@ -68,7 +67,7 @@ h6, .zeta{
 
 }
 
-/* Elements -------------------------- */
+// elements ----------------------------
 
 ::-moz-selection, ::selection {
 
