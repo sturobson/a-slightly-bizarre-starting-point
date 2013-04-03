@@ -14,6 +14,8 @@ $comp-color: green;
 $third-color: red;
 $alt-1: grey;
 $alt-2: white;
+$white: #FFF;
+$black: #000;
 
 // typography --------------------------
 
@@ -38,3 +40,9 @@ $information: wheat;
 
 $selection: $link-color;
 $selection-text: #FFF;
+
+
+// beauticon colors --------------------
+
+$button-color: $white;
+$button-bg-color: $base-color;
