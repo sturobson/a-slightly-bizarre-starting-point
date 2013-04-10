@@ -1,0 +1,437 @@
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+@-ms-viewport {
+  width: device-width; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html, button, input, select, textarea {
+  font-family: sans-serif; }
+
+body {
+  margin: 0; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+hgroup, ul, ol, dd, menu, dl, figure, pre, table, fieldset, legend, hr,
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0; }
+
+b, strong {
+  font-weight: bold; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  min-height: auto;
+  vertical-align: middle; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+figure > img {
+  display: block; }
+
+form {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+button,
+input {
+  line-height: normal; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.chromeframe {
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0; }
+
+/* --- Style Guide Stuff --- */
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+
+.color-swatch {
+  border-right: 1px solid black; }
+
+.color-swatch li {
+  border: 1px solid black;
+  display: inline-block;
+  list-style: none;
+  width: 48px;
+  height: 48px;
+  margin-top: 21px; }
+
+.primary-color li, .secondary-color li, .third-color li {
+  position: relative; }
+
+.primary-color .base {
+  background-color: #d15300; }
+
+.primary-color .base-20 {
+  background-color: tint(#d15300, 20%); }
+
+.primary-color .base-40 {
+  background-color: tint(#d15300, 20%); }
+
+.primary-color .base-60 {
+  background-color: tint(#d15300, 60%); }
+
+.primary-color .base-80 {
+  background-color: tint(#d15300, 80%); }
+
+.primary-color .base-120 {
+  background-color: shade(#d15300, 20%); }
+
+.primary-color .base-140 {
+  background-color: shade(#d15300, 40%); }
+
+.primary-color .base-160 {
+  background-color: shade(#d15300, 60%); }
+
+.primary-color .base-180 {
+  background-color: shade(#d15300, 80%); }
+
+.secondary-color .base {
+  background-color: #383131; }
+
+.secondary-color .base-20 {
+  background-color: tint(#383131, 20%); }
+
+.secondary-color .base-40 {
+  background-color: tint(#383131, 40%); }
+
+.secondary-color .base-60 {
+  background-color: tint(#383131, 60%); }
+
+.secondary-color .base-80 {
+  background-color: tint(#383131, 80%); }
+
+.secondary-color .base-120 {
+  background-color: shade(#383131, 20%); }
+
+.secondary-color .base-140 {
+  background-color: shade(#383131, 40%); }
+
+.secondary-color .base-160 {
+  background-color: shade(#383131, 60%); }
+
+.secondary-color .base-180 {
+  background-color: shade(#383131, 80%); }
+
+.third-color .base {
+  background-color: #f2f2f2; }
+
+.third-color .base-20 {
+  background-color: tint(#f2f2f2, 20%); }
+
+.third-color .base-40 {
+  background-color: tint(#f2f2f2, 40%); }
+
+.third-color .base-60 {
+  background-color: tint(#f2f2f2, 60%); }
+
+.third-color .base-80 {
+  background-color: tint(#f2f2f2, 80%); }
+
+.third-color .base-120 {
+  background-color: shade(#f2f2f2, 20%); }
+
+.third-color .base-140 {
+  background-color: shade(#f2f2f2, 40%); }
+
+.third-color .base-160 {
+  background-color: shade(#f2f2f2, 60%); }
+
+.third-color .base-180 {
+  background-color: shade(#f2f2f2, 80%); }
+
+.primary-color, .secondary-color, .third-color {
+  font-size: 12px;
+  text-transform: uppercase; }
+
+.primary-color .base:before {
+  position: absolute;
+  content: "#d15300";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-20:before {
+  position: absolute;
+  content: "tint(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-40:before {
+  position: absolute;
+  content: "tint(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-60:before {
+  position: absolute;
+  content: "tint(#d15300, 60%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-80:before {
+  position: absolute;
+  content: "tint(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-120:before {
+  position: absolute;
+  content: "shade(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-140:before {
+  position: absolute;
+  content: "shade(#d15300, 40%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-160:before {
+  position: absolute;
+  content: "shade(#d15300, 60%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.primary-color .base-180:before {
+  position: absolute;
+  content: "shade(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base:before {
+  position: absolute;
+  content: "#383131";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-20:before {
+  position: absolute;
+  content: "tint(#383131, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-40:before {
+  position: absolute;
+  content: "tint(#383131, 40%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-60:before {
+  position: absolute;
+  content: "tint(#383131, 60%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-80:before {
+  position: absolute;
+  content: "tint(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-120:before {
+  position: absolute;
+  content: "shade(#d15300, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-140:before {
+  position: absolute;
+  content: "shade(#d15300, 40%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-160:before {
+  position: absolute;
+  content: "shade(#d15300, 60%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.secondary-color .base-180:before {
+  position: absolute;
+  content: "shade(#d15300, 80%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base:before {
+  position: absolute;
+  content: "#f2f2f2";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-20:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-40:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 40%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-60:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 60%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-80:before {
+  position: absolute;
+  content: "tint(#f2f2f2, 80%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-120:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 20%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-140:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 40%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-160:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 60%)";
+  top: -21px;
+  margin: 0 auto; }
+
+.third-color .base-180:before {
+  position: absolute;
+  content: "shade(#f2f2f2, 80%)";
+  top: -21px;
+  margin: 0 auto; }

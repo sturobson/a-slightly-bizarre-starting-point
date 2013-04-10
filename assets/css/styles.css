@@ -1,0 +1,359 @@
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+@-ms-viewport {
+  width: device-width; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html, button, input, select, textarea {
+  font-family: sans-serif; }
+
+body {
+  margin: 0; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active,
+a:hover {
+  outline: 0; }
+
+hgroup, ul, ol, dd, menu, dl, figure, pre, table, fieldset, legend, hr,
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0; }
+
+b, strong {
+  font-weight: bold; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  min-height: auto;
+  vertical-align: middle; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure {
+  margin: 0; }
+
+figure > img {
+  display: block; }
+
+form {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+button,
+input {
+  line-height: normal; }
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  resize: vertical; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.chromeframe {
+  background: #ccc;
+  color: #000;
+  margin: 0.2em 0;
+  padding: 0.2em 0; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/*------------------------------------*\
+    $BEAUTONS.CSS
+\*------------------------------------*/
+/**
+ * beautons is a beautifully simple button toolkit.
+ *
+ * Copyright 2013 Harry Roberts
+ *
+ */
+/* - BASE ----------------------------- */
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: inherit;
+  font-size: 100%;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 3;
+  height: 3em;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  overflow: visible; }
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus,
+.btn:visited {
+  text-decoration: none;
+  color: #fff; }
+
+.btn:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+.btn:active,
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset; }
+
+.btn::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* - SIZES ---------------------------- */
+.btn--small {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  line-height: 2;
+  height: 2em; }
+
+.btn--large {
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  line-height: 4;
+  height: 4em; }
+
+.btn--huge {
+  padding-right: 2em;
+  padding-left: 2em;
+  line-height: 5;
+  height: 5em; }
+
+.btn--full {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center; }
+
+/* - FONT SIZES ----------------------- */
+.btn--alpha {
+  font-size: 3rem; }
+
+.btn--beta {
+  font-size: 2rem; }
+
+.btn--gamma {
+  font-size: 1rem; }
+
+.btn--natural {
+  vertical-align: baseline;
+  font-size: inherit;
+  line-height: inherit;
+  height: auto;
+  padding-right: 0.5em;
+  padding-left: 0.5em; }
+
+/* - FUNCTIONS ------------------------ */
+.btn--positive {
+  background-color: #4A993E;
+  color: #fff; }
+
+.btn--negative {
+  background-color: #b33630;
+  color: #fff; }
+
+.btn--inactive,
+.btn--inactive:hover,
+.btn--inactive:active,
+.btn--inactive:focus {
+  background-color: #ddd;
+  color: #777;
+  cursor: default;
+  box-shadow: none; }
+
+/* - STYLES --------------------------- */
+.btn--soft {
+  border-radius: 5em; }
+
+.btn--hard {
+  border-radius: 0; }
+
+[role="main"] p,
+[role="main"] ul,
+[role="main"] ol {
+  font-family: Georgia, serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif; }
+
+::-moz-selection, ::selection {
+  background-color: black;
+  color: white; }
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+/* endif */

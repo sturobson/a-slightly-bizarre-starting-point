@@ -1,0 +1,134 @@
+// Background Colour Palette Mixin
+
+@mixin bgcolor($color, $change: n) {
+    	 @if $change == n {
+   			background-color: $color;
+	    }
+	    @if $change == l1 {
+   			background-color: tint($color, 10%);
+	    }
+    	@if $change == l2 {
+    		background-color: tint($color, 25%);
+    	}
+    	@if $change == l3 {
+    		background-color: tint($color, 50%);
+    	}
+    	@if $change == l4 {
+    		background-color: tint($color, 75%);
+    	}
+    	@if $change == d1 {
+    		background-color: shade($color, 10%);
+    	}
+    	@if $change == d2 {
+    		background-color: shade($color, 25%);
+    	}
+    	@if $change == d3 {
+    		background-color: shade($color, 50%);
+    	}
+    	@if $change == d4 {
+    		background-color: shade($color, 75%);
+    	}
+
+    }
+
+
+// Color Palette Mixin
+
+  @mixin color($color, $change: n) {
+
+		@if $change == n {
+   			color: $color;
+	    }
+	    @if $change == l1 {
+   			color: tint($color, 10%);
+	    }
+    	@if $change == l2 {
+    		color: tint($color, 25%);
+    	}
+    	@if $change == l3 {
+    		color: tint($color, 50%);
+    	}
+    	@if $change == l4 {
+    		color: tint($color, 75%);
+    	}
+    	@if $change == d1 {
+    		color: shade($color, 10%);
+    	}
+    	@if $change == d2 {
+    		color: shade($color, 25%);
+    	}
+    	@if $change == d3 {
+    		color: shade($color, 50%);
+    	}
+    	@if $change == d4 {
+    		color: shade($color, 75%);
+    	}
+
+    }
+
+
+// Border Color Palette Mixin
+
+@mixin border($color: #000, $change: n, $border-size: 1px, $border-style: solid, $border-position: null) {
+
+	    @if $border-position == null {
+       @if $change == n {
+			    border: $border-size $border-style $color;
+		    }
+		    @if $change == l1 {
+			    border: $border-size $border-style #{tint($color, 10%)};
+		    }
+		    @if $change == l2 {
+			    border: $border-size $border-style #{tint($color, 25%)};
+		    }
+		    @if $change == l3 {
+			    border: $border-size $border-style #{tint($color, 50%)};
+		    }
+		    @if $change == l4 {
+			    border: $border-size $border-style #{tint($color, 75%)};
+		    }
+		    @if $change == d1 {
+			    border: $border-size $border-style #{shade($color, 10%)};
+		    }
+		    @if $change == d2 {
+			    border: $border-size $border-style #{shade($color, 25%)};
+		    }
+		    @if $change == d3 {
+			    border: $border-size $border-style #{shade($color, 50%)};
+		    }
+		    @if $change == d4 {
+			    border: $border-size $border-style #{shade($color, 75%)};
+		    }
+
+  }
+	    @elseif $border-position != null {
+      @if $change == n {
+			    border-#{$border-position}: $border-size $border-style $color;
+		    }
+		    @if $change == l1 {
+			    border-#{$border-position}: $border-size $border-style #{tint($color, 10%)};
+		    }
+		    @if $change == l2 {
+			    border-#{$border-position}: $border-size $border-style #{tint($color, 25%)};
+		    }
+		    @if $change == l3 {
+			    border-#{$border-position}: $border-size $border-style #{tint($color, 50%)};
+		    }
+		    @if $change == l4 {
+			    border-#{$border-position}: $border-size $border-style #{tint($color, 75%)};
+		    }
+		    @if $change == d1 {
+			    border-#{$border-position}: $border-size $border-style #{shade($color, 10%)};
+		    }
+		    @if $change == d2 {
+			    border-#{$border-position}: $border-size $border-style #{shade($color, 25%)};
+		    }
+		    @if $change == d3 {
+			    border-#{$border-position}: $border-size $border-style #{shade($color, 50%)};
+		    }
+		    @if $change == d4 {
+			    border-#{border-position}: $border-size $border-style #{shade($color, 75%)};
+		    }
+	    }
+
+    }

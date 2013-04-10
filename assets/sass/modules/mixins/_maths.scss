@@ -1,0 +1,19 @@
+@function rem($size) {
+	@return #{$size/$doc-font-size}rem
+}
+
+@function em($size) {
+	@return #{$size/$doc-font-size}em
+}
+
+
+@mixin size($width, $height: null) {
+	@if $height == null {
+		width: $width;
+		height: $width;
+	}
+	@else {
+		width: $width;
+		height: $height;
+	}
+}

@@ -1,0 +1,149 @@
+/*------------------------------------*\
+    $BEAUTONS.CSS
+\*------------------------------------*/
+/**
+ * beautons is a beautifully simple button toolkit.
+ *
+ * Copyright 2013 Harry Roberts
+ *
+ */
+
+
+/* - BASE ----------------------------- */
+
+.btn{
+    display:inline-block;
+    vertical-align:middle;
+    white-space:nowrap;
+    font-family:inherit;
+    font-size:100%;
+    cursor:pointer;
+    border:none;
+    margin:0;
+    padding-top:   0;
+    padding-bottom:0;
+    line-height:3;
+    height: 3em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: $button-bg-color;
+    color: $button-color;
+    border-radius:4px;
+    overflow:visible;
+}
+
+.btn,
+    .btn:hover,
+    .btn:active,
+    .btn:focus,
+    .btn:visited{
+        text-decoration:none;
+        color:#fff;
+    }
+
+    .btn:hover{
+        box-shadow:0 0 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn:active,
+    .btn:focus{
+        outline:none;
+        box-shadow:0 0 5px rgba(0, 0, 0, 0.5) inset;
+    }
+
+    .btn::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+/* - SIZES ---------------------------- */
+
+.btn--small{
+    padding-right:0.5em;
+    padding-left: 0.5em;
+    line-height:2;
+    height:     2em;
+}
+
+.btn--large{
+    padding-right:1.5em;
+    padding-left: 1.5em;
+    line-height:4;
+    height:     4em;
+}
+
+.btn--huge{
+    padding-right:2em;
+    padding-left: 2em;
+    line-height:5;
+    height:     5em;
+}
+
+.btn--full{
+    width:100%;
+    padding-right:0;
+    padding-left: 0;
+    text-align:center;
+}
+
+/* - FONT SIZES ----------------------- */
+
+.btn--alpha{
+    font-size:3rem;
+}
+
+.btn--beta{
+    font-size:2rem;
+}
+
+.btn--gamma{
+    font-size:1rem;
+}
+
+
+.btn--natural{
+    vertical-align:baseline;
+    font-size:inherit;
+    line-height:inherit;
+    height:auto;
+    padding-right:0.5em;
+    padding-left: 0.5em;
+}
+
+/* - FUNCTIONS ------------------------ */
+
+.btn--primary{}
+.btn--secondary{}
+.btn--tertiary{}
+
+
+.btn--positive{
+    background-color:#4A993E;
+    color:#fff;
+}
+
+.btn--negative{
+    background-color:#b33630;
+    color:#fff;
+}
+
+.btn--inactive,
+    .btn--inactive:hover,
+    .btn--inactive:active,
+    .btn--inactive:focus{
+        background-color:#ddd;
+        color:#777;
+        cursor:default; 
+        box-shadow:none;
+    }
+
+/* - STYLES --------------------------- */
+
+
+.btn--soft{
+    border-radius:5em; 
+}
+
+.btn--hard{
+    border-radius:0;
+}
