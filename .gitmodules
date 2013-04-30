@@ -1,3 +1,6 @@
 [submodule "sassifaction"]
 	path = sassifaction
 	url = git@github.com:sturobson/sassifaction.git
+[submodule "Universal-IE7"]
+	path = Universal-IE7
+	url = git@github.com:sturobson/Universal-IE7.git
