@@ -203,6 +203,7 @@
 	},
 	"file_history":
 	[
+<<<<<<< Updated upstream
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_beauticons.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
@@ -260,6 +261,27 @@
 		"/Users/RoadRunner/Dropbox/Clients/white-star/js/vendor/modernizr.js",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/mixture.json",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/Sass/partials/_typography.scss",
+=======
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
+<<<<<<< HEAD
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
+=======
+>>>>>>> parent of 1a7c0c0... ST2 stuff
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_helpers.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_base.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/_page.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_debug.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_print.scss",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/plugins.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/humans.txt",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/robots.txt",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/main.js",
+		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/css/styles.css",
+>>>>>>> Stashed changes
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -498,7 +520,14 @@
 	"groups":
 	[
 		{
+<<<<<<< Updated upstream
 			"selected": 0,
+=======
+<<<<<<< HEAD
+=======
+			"selected": 0,
+>>>>>>> parent of 1a7c0c0... ST2 stuff
+>>>>>>> Stashed changes
 			"sheets":
 			[
 				{
@@ -564,7 +593,11 @@
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 0.0,
+=======
+						"translation.y": 1074.0,
+>>>>>>> parent of 1a7c0c0... ST2 stuff
 						"zoom_level": 1.0
 					},
 					"type": "text"
