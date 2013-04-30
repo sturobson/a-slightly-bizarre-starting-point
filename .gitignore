@@ -1,0 +1,24 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+sites/sites.php
+ 
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+ 
+# Ignore Sublime Text 2 local project files
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
+ 
+# Ignore Compass/SASS & Guard files
+.sass-cache
+.sass-cache/*
+Guardfile
+.Guardfile
+ 
+# Ignore Dev modules
+sites/*/modules/dev
+ 
+# Ignore local directory files
+.DS_Store
