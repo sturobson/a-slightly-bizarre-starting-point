@@ -56,9 +56,18 @@
 	"buffers":
 	[
 		{
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sassifaction/styles.scss",
+			"settings":
+			{
+				"buffer_size": 468,
 				"line_ending": "Unix"
 			}
 		}
@@ -203,7 +212,6 @@
 	},
 	"file_history":
 	[
-<<<<<<< Updated upstream
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_beauticons.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
 		"/Users/RoadRunner/Dropbox/Clients/Personal Projects/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
@@ -261,27 +269,6 @@
 		"/Users/RoadRunner/Dropbox/Clients/white-star/js/vendor/modernizr.js",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/mixture.json",
 		"/Users/RoadRunner/Dropbox/Clients/white-star/Sass/partials/_typography.scss",
-=======
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_variables.scss",
-<<<<<<< HEAD
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
-=======
->>>>>>> parent of 1a7c0c0... ST2 stuff
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_mixins.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_helpers.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_normalize.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_base.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/styles.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/_page.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_debug.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/Sass/modules/_print.scss",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/plugins.js",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/humans.txt",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/robots.txt",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/js/main.js",
-		"/Users/RoadRunner/Dropbox/Clients/A Slightly Bizzare Starting Point/css/styles.css",
->>>>>>> Stashed changes
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
 		"/Users/RoadRunner/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
@@ -520,33 +507,34 @@
 	"groups":
 	[
 		{
-<<<<<<< Updated upstream
-			"selected": 0,
-=======
-<<<<<<< HEAD
-=======
-			"selected": 0,
->>>>>>> parent of 1a7c0c0... ST2 stuff
->>>>>>> Stashed changes
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5012,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4447,
+								4447
 							]
 						],
 						"settings":
 						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
 							"bh_regions":
 							[
 								"bh_regex",
@@ -590,14 +578,250 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
+						"translation.y": 1483.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sassifaction/styles.scss",
+					"settings":
+					{
+						"buffer_size": 468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
-=======
-						"translation.y": 1074.0,
->>>>>>> parent of 1a7c0c0... ST2 stuff
 						"zoom_level": 1.0
 					},
 					"type": "text"

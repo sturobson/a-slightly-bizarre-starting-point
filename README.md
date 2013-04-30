@@ -13,7 +13,7 @@ It fits how I develop 'le web' and because of this I may do things differently t
 
 This is not to say don't pull this apart. In fact this 'framework' is the amalgamation of many other boilerplates and frameworks.codc
 
-## CSS (LESS/Sass/SCSS) Styleguide
+## CSS (Sass/SCSS) Styleguide
 
 ### CSS Class/ID Naming conventions
 
@@ -50,18 +50,24 @@ To aid in writing your CSS without referring to your HTML add the code snippet w
 
 #### For Sections
 
-	/* ---------------------------------- */
+	/*------------------------------------*\
+	
+	\*------------------------------------*/
 
 and edit it like this
 
-	/* typography ----------------------- */
+	/*------------------------------------*\
+		Typography
+	\*------------------------------------*/
 
 ##### Section Spacing
 
 For spaces between Major sections allow 3 blank lines -
 
 
-	/* headings ------------------------- */
+	/*------------------------------------*\
+		headings
+	\*------------------------------------*/
 
 		header {
 			background: red;
@@ -72,7 +78,9 @@ For spaces between Major sections allow 3 blank lines -
 
 
 
-	/* footer --------------------------- */
+	/*------------------------------------*\
+		footer
+	\*------------------------------------*/
 
 #### For individual Rules
 
@@ -145,6 +153,77 @@ For Example -
 not
 
 	display:block;
+
+### Nesting Media Queries
+
+It will come to a point in the development when you'd need to add some media queries to your code. 
+These are to be nested inline with the elements themselves rather than at the bottom of the (S)CSS document.
+Like this -
+
+	.element {
+		background: red;
+		@media (min-width: 700px) {
+			background: blue;
+		}
+	}
+
+### Nesting Elements
+
+There will also be a time where you would want to naturally nest things. Like adding a heading that's knowingly going to be specific to it's parent and maybe another div the same. 
+
+To do this we would make sure our nested elements are in order of nesting anything super specific like a h1, p, a or #id'd element followed by anything that's a .class like this 
+
+	.element {
+		background: blue;
+		display: block;
+		margin: 0 auto;
+		width: 44.15467%;
+		h1 {
+			color: green;
+			font-size: 32px;
+			font-size: 2rem;
+		}
+		.box {
+			width: 80%;
+			margin: 0 auto;
+		}
+	}
+	
+### Nesting Media Queries with Nested Elements
+
+It's therefore only progression to suggest where you would have elements nested within elements that also require media queries. For consistency rather than writing media queries after 'every' element in a nested group of elements. Group the media queries at the end of the element. Like this - 
+
+	.element {
+		background: blue;
+		display: block;
+		margin: 0 auto;
+		width: 44.15467%;
+		h1 {
+			color: green;
+			font-size: 32px;
+			font-size: 2rem;
+		}
+		.box {
+			width: 80%;
+			margin: 0 auto;
+		}
+		@media (min-width: 700px) {
+			width: 100%;
+			h1 {
+				font-size: 48px;
+				font-size: 3rem;
+			}
+			.box {
+				width: 95%;
+			}
+		}
+		@media (min-width: 900px) {
+			h1 {
+				font-size: 32px;
+				font-size: 2rem;
+			}
+		}
+	}
 
 ### CSS3, The Bleeding Edge
 
