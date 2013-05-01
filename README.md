@@ -11,7 +11,27 @@ It fits how I develop 'le web' and because of this I may do things differently t
 * I like tabs over spaces
 * I like indenting my HTML how I like to do it.
 
-This is not to say don't pull this apart. In fact this 'framework' is the amalgamation of many other boilerplates and frameworks.codc
+This is not to say don't pull this apart. In fact this 'framework' is the amalgamation of many other boilerplates and frameworks.
+
+
+
+## HTML
+
+### Closing HTML tags
+
+At the end of an HTML tag to ease the pain of what div is doing what for example we must 'close' the tag with an HTML comment, like this
+
+	<div class="test">
+	
+	</di> <!-- /.test -->
+	
+#### Multiple Classes in use
+
+If you end up have multiple classes for an HTML element then you must separate the classes logically with a forward slash. You must 'close' all the classes in an HTML comment too, like this
+
+	<div class="list / sub-content / comp">
+	
+	</div> <!-- /.list /.sub-content /.comp -->
 
 ## CSS (Sass/SCSS) Styleguide
 
@@ -153,18 +173,88 @@ For Example -
 not
 
 	display:block;
+	
+### CSS3, The Bleeding Edge
 
-### Nesting Media Queries
+If you're 'hand coding' your CSS3 and not using pre-written @mixins or Compass/Bourborn then declare the CSS. Also put all CSS3 prefixed code at the end of the alphabetised stack.
 
-It will come to a point in the development when you'd need to add some media queries to your code. 
-These are to be nested inline with the elements themselves rather than at the bottom of the (S)CSS document.
-Like this -
+For Example
+
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	     -o-transform: rotate(45deg);
+	        transform: rotate(45deg);
+
+note: make sure you are using the correct prefixes for the selector. Use [Can I Use](http://caniuse.com/) and the [Mozilla Developer's Network](https://developer.mozilla.org/en-US/)Mozilla Developer's Network to check.
+
+	
+## Sass
+
+This starting point is sticking with Sass (currently SCSS) so there's things that need to be addressed, outlined and adhered to whilst using this language also.
+
+### Ordering things
+
+For clarity, it is best to stick to a strict order of 'things' in a block of Sass. These 'things' are to be separated by one line.  
+
+#### Ordering $variables, @extends and @includes
+
+To start with you would call any variables specific to the element, followed by any @extends or @includes, like this
 
 	.element {
-		background: red;
-		@media (min-width: 700px) {
-			background: blue;
-		}
+		$bg-color: #D90000;
+		
+		@extend .rounded-border;
+		
+		@include data-module;
+	}
+
+#### Element properties
+
+After we've got that bit of Sass lovliness out of the way we will add the element properties that are required. So our block could look like this 
+
+	.element {
+		$bg-color: #D90000;
+		
+		@extend .rounded-border;
+		
+		@include data-module;
+		
+		cursor: pointer;
+		height: 300px;
+		margin: 0 auto;
+		padding: 0;
+		width: 400px;
+	}
+	
+#### Pseudo & Combinator Selectors
+
+After this we place the Pseudo selectors followed by the combinator selectors, like this 
+
+	.element {
+		$bg-color: #D90000;
+		
+		@extend .rounded-border;
+		
+		@include data-module;
+		
+		cursor: pointer;
+		height: 300px;
+		margin: 0 auto;
+		padding: 0;
+		width: 400px;
+		
+		&:hover {
+        	text-decoration:underline;
+    	}
+    	
+        & > li {
+	        margin:10px;
+        }
+        
+        & + ul {
+    	    margin-left:10px;
+        }
 	}
 
 ### Nesting Elements
@@ -186,6 +276,19 @@ To do this we would make sure our nested elements are in order of nesting anythi
 		.box {
 			width: 80%;
 			margin: 0 auto;
+		}		
+	}
+
+### Nesting Media Queries
+
+It will come to a point in the development when you'd need to add some media queries to your code. 
+These are to be nested inline with the elements themselves rather than at the bottom of the (S)CSS document.
+Like this -
+
+	.element {
+		background: red;
+		@media (min-width: 700px) {
+			background: blue;
 		}
 	}
 	
@@ -225,21 +328,7 @@ It's therefore only progression to suggest where you would have elements nested 
 		}
 	}
 
-### CSS3, The Bleeding Edge
-
-If you're 'hand coding' your CSS3 and not using pre-written @mixins or Compass/Bourborn then declare the CSS. Also put all CSS3 prefixed code at the end of the alphabetised stack.
-
-For Example
-
-	-webkit-transform: rotate(45deg);
-	   -moz-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	     -o-transform: rotate(45deg);
-	        transform: rotate(45deg);
-
-note: make sure you are using the correct prefixes for the selector. Use [Can I Use](http://caniuse.com/) and the [Mozilla Developer's Network](https://developer.mozilla.org/en-US/)Mozilla Developer's Network to check
-
-### Internet Explorer
+## Internet Explorer
 
 For targeting IE8 and below use a class of lte-ie8, then add specific hacks for IE7 and IE6.
 
