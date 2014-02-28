@@ -23,7 +23,7 @@ At the end of an HTML tag to ease the pain of what div is doing what for example
 
 	<div class="test">
 	
-	</di> <!-- /.test -->
+	</div> <!-- /.test -->
 	
 #### Multiple Classes in use
 
